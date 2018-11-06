@@ -34,6 +34,7 @@ class ImdbMovieTop250(Spider):
             item['ranking'] = movie.xpath('.//td[@class="titleColumn"]/text()').re(r'(\d+)')[0]
             item['movie_name'] = movie.xpath('.//td[@class="titleColumn"]/a/text()').extract()[0]
             item['score'] = movie.xpath('.//td[@class="ratingColumn imdbRating"]/strong/text()').extract()[0]
+            item['year'] = movie.xpath('.//span[@class="secondaryInfo"]/text()').re(r'\d+')[0]
             link = movie.xpath('.//td[@class="posterColumn"]/a/@href').extract()[0]
             next_url = 'https://www.imdb.com' + link
             yield Request(next_url,headers=self.headers,meta={'item':item},callback=self.parse_detail)

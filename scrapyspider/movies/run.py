@@ -2,4 +2,4 @@
 
 from scrapy import cmdline
 
-cmdline.execute("scrapy crawl test -o test.csv".split())
+cmdline.execute("scrapy crawl imdb_movie_top250 -o test.csv".split())
