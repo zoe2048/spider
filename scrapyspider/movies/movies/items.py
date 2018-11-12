@@ -37,4 +37,8 @@ class ImdbMovieItem(scrapy.Item):
     year =scrapy.Field()
     # 电影类型
     tag = scrapy.Field()
+    # 电影发行信息（年份、国家）
+    relinfo = scrapy.Field()
+    # 电影制片国家
+    nation = scrapy.Field()
 
