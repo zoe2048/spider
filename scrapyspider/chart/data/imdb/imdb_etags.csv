@@ -1,0 +1,1123 @@
+movie_name,nation,ranking,relinfo,score,tag,year
+The Shawshank Redemption,USA,1,"14 October 1994 (USA)
+",9.2," Drama
+",1994
+The Godfather,USA,2,"24 March 1972 (USA)
+",9.2," Crime
+, Drama
+",1972
+The Godfather: Part II,USA,3,"20 December 1974 (USA)
+",9," Crime
+, Drama
+",1974
+The Dark Knight,"USA,UK",4,"18 July 2008 (USA)
+",9," Action
+, Crime
+, Drama
+",2008
+12 Angry Men,USA,5,"April 1957 (USA)
+",8.9," Crime
+, Drama
+",1957
+Schindler's List,USA,6,"4 February 1994 (USA)
+",8.9," Biography
+, Drama
+, History
+",1993
+The Lord of the Rings: The Return of the King,"New Zealand,USA",7,"17 December 2003 (USA)
+",8.9," Action
+, Adventure
+, Drama
+",2003
+Pulp Fiction,USA,8,"14 October 1994 (USA)
+",8.9," Crime
+, Drama
+",1994
+"The Good, the Bad and the Ugly","Italy,Spain,West Germany",9,"29 December 1967 (USA)
+",8.8," Western
+",1966
+Fight Club,"USA,Germany",10,"15 October 1999 (USA)
+",8.8," Drama
+",1999
+The Lord of the Rings: The Fellowship of the Ring,"New Zealand,USA",11,"19 December 2001 (USA)
+",8.8," Adventure
+, Drama
+, Fantasy
+",2001
+Forrest Gump,USA,12,"6 July 1994 (USA)
+",8.7," Drama
+, Romance
+",1994
+Star Wars: Episode V - The Empire Strikes Back,USA,13,"20 June 1980 (USA)
+",8.7," Action
+, Adventure
+, Fantasy
+",1980
+Inception,"USA,UK",14,"16 July 2010 (USA)
+",8.7," Action
+, Adventure
+, Sci-Fi
+",2010
+The Lord of the Rings: The Two Towers,"New Zealand,USA",15,"18 December 2002 (USA)
+",8.7," Adventure
+, Drama
+, Fantasy
+",2002
+One Flew Over the Cuckoo's Nest,USA,16,"19 November 1975 (USA)
+",8.7," Drama
+",1975
+Goodfellas,USA,17,"21 September 1990 (USA)
+",8.7," Crime
+, Drama
+",1990
+The Matrix,USA,18,"31 March 1999 (USA)
+",8.6," Action
+, Sci-Fi
+",1999
+Seven Samurai,Japan,19,"19 November 1956 (USA)
+",8.6," Adventure
+, Drama
+",1954
+City of God,"Brazil,France",20,"13 February 2004 (USA)
+",8.6," Crime
+, Drama
+",2002
+Se7en,USA,21,"22 September 1995 (USA)
+",8.6," Crime
+, Drama
+, Mystery
+",1995
+Star Wars: Episode IV - A New Hope,USA,22,"25 May 1977 (USA)
+",8.6," Action
+, Adventure
+, Fantasy
+",1977
+The Silence of the Lambs,USA,23,"14 February 1991 (USA)
+",8.6," Crime
+, Drama
+, Thriller
+",1991
+It's a Wonderful Life,USA,24,"7 January 1947 (USA)
+",8.6," Drama
+, Family
+, Fantasy
+",1946
+Life Is Beautiful,Italy,25,"12 February 1999 (USA)
+",8.6," Comedy
+, Drama
+, Romance
+",1997
+The Usual Suspects,"USA,Germany",26,"15 September 1995 (USA)
+",8.5," Crime
+, Mystery
+, Thriller
+",1995
+Spirited Away,Japan,27,"28 March 2003 (USA)
+",8.5," Animation
+, Adventure
+, Family
+",2001
+Saving Private Ryan,USA,28,"24 July 1998 (USA)
+",8.5," Drama
+, War
+",1998
+L¨¦on: The Professional,France,29,"18 November 1994 (USA)
+",8.5," Crime
+, Drama
+, Thriller
+",1994
+The Green Mile,USA,30,"10 December 1999 (USA)
+",8.5," Crime
+, Drama
+, Fantasy
+",1999
+Interstellar,"USA,UK",31,"7 November 2014 (USA)
+",8.5," Adventure
+, Drama
+, Sci-Fi
+",2014
+Psycho,USA,32,"8 September 1960 (USA)
+",8.5," Horror
+, Mystery
+, Thriller
+",1960
+American History X,USA,33,"20 November 1998 (USA)
+",8.5," Crime
+, Drama
+",1998
+City Lights,USA,34,"7 March 1931 (USA)
+",8.5," Comedy
+, Drama
+, Romance
+",1931
+Once Upon a Time in the West,"Italy,USA",35,"4 July 1969 (USA)
+",8.5," Western
+",1968
+Casablanca,USA,36,"23 January 1943 (USA)
+",8.5," Drama
+, Romance
+, War
+",1942
+Modern Times,USA,37,"25 February 1936 (USA)
+",8.5," Comedy
+, Drama
+, Family
+",1936
+The Intouchables,France,38,"2 November 2011 (France)
+",8.5," Biography
+, Comedy
+, Drama
+",2011
+The Pianist,"France,Poland,Germany,UK,USA",39,"28 March 2003 (USA)
+",8.5," Biography
+, Drama
+, Music
+",2002
+The Departed,"USA,Hong Kong",40,"6 October 2006 (USA)
+",8.5," Crime
+, Drama
+, Thriller
+",2006
+Terminator 2: Judgment Day,"USA,France",41,"3 July 1991 (USA)
+",8.5," Action
+, Sci-Fi
+",1991
+Back to the Future,USA,42,"3 July 1985 (USA)
+",8.5," Adventure
+, Comedy
+, Sci-Fi
+",1985
+Whiplash,USA,43,"15 October 2014 (Philippines)
+",8.5," Drama
+, Music
+",2014
+Rear Window,USA,44,"September 1954 (USA)
+",8.5," Mystery
+, Thriller
+",1954
+Raiders of the Lost Ark,USA,45,"12 June 1981 (USA)
+",8.5," Action
+, Adventure
+",1981
+Gladiator,"USA,UK",46,"5 May 2000 (USA)
+",8.5," Action
+, Adventure
+, Drama
+",2000
+The Lion King,USA,47,"24 June 1994 (USA)
+",8.5," Animation
+, Adventure
+, Drama
+",1994
+The Prestige,"USA,UK",48,"20 October 2006 (USA)
+",8.5," Drama
+, Mystery
+, Sci-Fi
+",2006
+Apocalypse Now,USA,49,"15 August 1979 (USA)
+",8.4," Drama
+, War
+",1979
+Memento,USA,50,"25 May 2001 (USA)
+",8.4," Mystery
+, Thriller
+",2000
+Alien,"UK,USA",51,"22 June 1979 (USA)
+",8.4," Horror
+, Sci-Fi
+",1979
+Avengers: Infinity War,USA,52,"27 April 2018 (USA)
+",8.4," Action
+, Adventure
+, Fantasy
+",2018
+The Great Dictator,USA,53,"7 March 1941 (USA)
+",8.4," Comedy
+, Drama
+, War
+",1940
+Cinema Paradiso,"Italy,France",54,"23 February 1990 (USA)
+",8.4," Drama
+",1988
+Grave of the Fireflies,Japan,55,"16 April 1988 (Japan)
+",8.4," Animation
+, Drama
+, War
+",1988
+Sunset Boulevard,USA,56,"29 September 1950 (Australia)
+",8.4," Drama
+, Film-Noir
+",1950
+The Lives of Others,Germany,57,"30 March 2007 (USA)
+",8.4," Drama
+, Thriller
+",2006
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,"USA,UK",58,"29 January 1964 (USA)
+",8.4," Comedy
+",1964
+Paths of Glory,USA,59,"November 1957 (West Germany)
+",8.4," Drama
+, War
+",1957
+The Shining,"UK,USA",60,"13 June 1980 (USA)
+",8.4," Drama
+, Horror
+",1980
+Django Unchained,USA,61,"25 December 2012 (USA)
+",8.4," Drama
+, Western
+",2012
+WALL¡¤E,USA,62,"27 June 2008 (USA)
+",8.4," Animation
+, Adventure
+, Family
+",2008
+Princess Mononoke,Japan,63,"12 July 1997 (Japan)
+",8.4," Animation
+, Adventure
+, Fantasy
+",1997
+Witness for the Prosecution,USA,64,"6 February 1958 (USA)
+",8.4," Crime
+, Drama
+, Mystery
+",1957
+American Beauty,USA,65,"1 October 1999 (USA)
+",8.4," Drama
+",1999
+The Dark Knight Rises,"UK,USA",66,"20 July 2012 (USA)
+",8.4," Action
+, Thriller
+",2012
+Oldboy,South Korea,67,"21 November 2003 (South Korea)
+",8.3," Action
+, Drama
+, Mystery
+",2003
+Aliens,USA,68,"18 July 1986 (USA)
+",8.3," Action
+, Adventure
+, Sci-Fi
+",1986
+Coco,USA,69,"22 November 2017 (USA)
+",8.3," Animation
+, Adventure
+, Comedy
+",2017
+Once Upon a Time in America,"USA,Italy",70,"1 June 1984 (USA)
+",8.3," Crime
+, Drama
+",1984
+Das Boot,West Germany,71,"10 February 1982 (USA)
+",8.3," Adventure
+, Drama
+, Thriller
+",1981
+Citizen Kane,USA,72,"5 September 1941 (USA)
+",8.3," Drama
+, Mystery
+",1941
+Braveheart,USA,73,"24 May 1995 (USA)
+",8.3," Biography
+, Drama
+, History
+",1995
+Vertigo,USA,74,"21 July 1958 (Brazil)
+",8.3," Mystery
+, Romance
+, Thriller
+",1958
+North by Northwest,USA,75,"26 September 1959 (Japan)
+",8.3," Adventure
+, Mystery
+, Thriller
+",1959
+Reservoir Dogs,USA,76,"2 September 1992 (France)
+",8.3," Crime
+, Drama
+, Thriller
+",1992
+Star Wars: Episode VI - Return of the Jedi,USA,77,"25 May 1983 (USA)
+",8.3," Action
+, Adventure
+, Fantasy
+",1983
+M,Germany,78,"31 August 1931 (Sweden)
+",8.3," Crime
+, Mystery
+, Thriller
+",1931
+Your Name.,Japan,79,"7 April 2017 (USA)
+",8.3," Animation
+, Drama
+, Fantasy
+",2016
+Dangal,India,80,"21 December 2016 (USA)
+",8.3," Action
+, Biography
+, Drama
+",2016
+Requiem for a Dream,USA,81,"15 December 2000 (USA)
+",8.3," Drama
+",2000
+Amadeus,"USA,France,Czechoslovakia",82,"19 September 1984 (USA)
+",8.3," Biography
+, Drama
+, History
+",1984
+Like Stars on Earth,India,83,"21 December 2007 (India)
+",8.3," Drama
+, Family
+",2007
+Lawrence of Arabia,UK,84,"11 December 1962 (UK)
+",8.3," Adventure
+, Biography
+, Drama
+",1962
+Eternal Sunshine of the Spotless Mind,USA,85,"19 March 2004 (USA)
+",8.3," Drama
+, Romance
+, Sci-Fi
+",2004
+A Clockwork Orange,"UK,USA",86,"2 February 1972 (USA)
+",8.3," Crime
+, Drama
+, Sci-Fi
+",1971
+Am¨¦lie,"France,Germany",87,"8 February 2002 (USA)
+",8.3," Comedy
+, Romance
+",2001
+3 Idiots,India,88,"8 December 2011 (China)
+",8.3," Comedy
+, Drama
+",2009
+2001: A Space Odyssey,"UK,USA",89,"12 May 1968 (UK)
+",8.3," Adventure
+, Sci-Fi
+",1968
+Double Indemnity,USA,90,"6 July 1944 (USA)
+",8.3," Crime
+, Drama
+, Film-Noir
+",1944
+Toy Story,USA,91,"22 November 1995 (USA)
+",8.3," Animation
+, Adventure
+, Comedy
+",1995
+Taxi Driver,USA,92,"8 February 1976 (USA)
+",8.3," Crime
+, Drama
+",1976
+Singin' in the Rain,USA,93,"11 April 1952 (USA)
+",8.3," Comedy
+, Musical
+, Romance
+",1952
+Full Metal Jacket,"UK,USA",94,"10 July 1987 (USA)
+",8.3," Drama
+, War
+",1987
+Inglourious Basterds,"Germany,USA",95,"21 August 2009 (USA)
+",8.3," Adventure
+, Drama
+, War
+",2009
+Bicycle Thieves,Italy,96,"13 December 1949 (USA)
+",8.3," Drama
+",1948
+To Kill a Mockingbird,USA,97,"16 March 1963 (USA)
+",8.3," Crime
+, Drama
+",1962
+The Kid,USA,98,"6 February 1921 (USA)
+",8.3," Comedy
+, Drama
+, Family
+",1921
+The Sting,USA,99,"25 December 1973 (USA)
+",8.3," Comedy
+, Crime
+, Drama
+",1973
+Toy Story 3,USA,100,"18 June 2010 (USA)
+",8.3," Animation
+, Adventure
+, Comedy
+",2010
+Good Will Hunting,USA,101,"9 January 1998 (USA)
+",8.3," Drama
+, Romance
+",1997
+The Hunt,"Denmark,Sweden",102,"10 January 2013 (Denmark)
+",8.3," Drama
+",2012
+Snatch,"UK,USA",103,"19 January 2001 (USA)
+",8.3," Comedy
+, Crime
+",2000
+Monty Python and the Holy Grail,UK,104,"27 June 1975 (Ireland)
+",8.2," Adventure
+, Comedy
+, Fantasy
+",1975
+Scarface,USA,105,"9 December 1983 (USA)
+",8.2," Crime
+, Drama
+",1983
+For a Few Dollars More,"Italy,Spain,West Germany",106,"10 May 1967 (USA)
+",8.2," Western
+",1965
+The Apartment,USA,107,"16 September 1960 (France)
+",8.2," Comedy
+, Drama
+, Romance
+",1960
+L.A. Confidential,USA,108,"19 September 1997 (USA)
+",8.2," Crime
+, Drama
+, Mystery
+",1997
+Metropolis,Germany,109,"13 March 1927 (USA)
+",8.2," Drama
+, Sci-Fi
+",1927
+A Separation,"Iran,France",110,"13 November 2012 (China)
+",8.2," Crime
+, Drama
+, Family
+",2011
+Indiana Jones and the Last Crusade,USA,111,"24 May 1989 (USA)
+",8.2," Action
+, Adventure
+, Fantasy
+",1989
+Rashomon,Japan,112,"26 December 1951 (USA)
+",8.2," Crime
+, Drama
+, Mystery
+",1950
+Up,USA,113,"29 May 2009 (USA)
+",8.2," Animation
+, Adventure
+, Comedy
+",2009
+All About Eve,USA,114,"27 October 1950 (USA)
+",8.2," Drama
+",1950
+Yojimbo,Japan,115,"13 September 1961 (USA)
+",8.2," Action
+, Drama
+, Thriller
+",1961
+Batman Begins,"USA,UK",116,"15 June 2005 (USA)
+",8.2," Action
+, Adventure
+, Thriller
+",2005
+Some Like It Hot,USA,117,"14 April 1959 (Japan)
+",8.2," Comedy
+, Romance
+",1959
+Unforgiven,USA,118,"7 August 1992 (USA)
+",8.2," Drama
+, Western
+",1992
+Downfall,"Germany,Austria,Italy",119,"8 April 2005 (USA)
+",8.2," Biography
+, Drama
+, History
+",2004
+The Treasure of the Sierra Madre,USA,120,"24 January 1948 (USA)
+",8.2," Adventure
+, Drama
+, Western
+",1948
+Die Hard,USA,121,"20 July 1988 (USA)
+",8.2," Action
+, Thriller
+",1988
+Heat,USA,122,"15 December 1995 (USA)
+",8.2," Crime
+, Drama
+, Thriller
+",1995
+Ikiru,Japan,123,"25 March 1956 (USA)
+",8.2," Drama
+",1952
+Bohemian Rhapsody,"UK,USA",124,"2 November 2018 (USA)
+",8.2," Biography
+, Drama
+, Music
+",2018
+Raging Bull,USA,125,"19 December 1980 (USA)
+",8.2," Biography
+, Drama
+, Sport
+",1980
+Incendies,"Canada,France",126,"12 January 2011 (France)
+",8.2," Drama
+, Mystery
+, War
+",2010
+The Great Escape,USA,127,"4 July 1963 (USA)
+",8.2," Adventure
+, Drama
+, History
+",1963
+Children of Heaven,Iran,128,"22 January 1999 (USA)
+",8.2," Drama
+, Family
+",1997
+My Father and My Son,Turkey,129,"18 November 2005 (Turkey)
+",8.2," Drama
+, Family
+",2005
+Pan's Labyrinth,"Spain,Mexico,USA",130,"19 January 2007 (USA)
+",8.2," Drama
+, Fantasy
+, War
+",2006
+Chinatown,USA,131,"20 June 1974 (USA)
+",8.2," Drama
+, Mystery
+, Thriller
+",1974
+The Third Man,UK,132,"12 October 1949 (France)
+",8.2," Film-Noir
+, Mystery
+, Thriller
+",1949
+My Neighbor Totoro,Japan,133,"16 April 1988 (Japan)
+",8.2," Animation
+, Family
+, Fantasy
+",1988
+Ran,"Japan,France",134,"1 June 1985 (Japan)
+",8.2," Action
+, Drama
+",1985
+Howl's Moving Castle,Japan,135,"17 June 2005 (USA)
+",8.2," Animation
+, Adventure
+, Family
+",2004
+Judgment at Nuremberg,USA,136,"18 December 1961 (Sweden)
+",8.2," Drama
+, War
+",1961
+The Gold Rush,USA,137,"1925 (Germany)
+",8.2," Adventure
+, Comedy
+, Drama
+",1925
+The Secret in Their Eyes,"Argentina,Spain",138,"21 May 2010 (USA)
+",8.2," Drama
+, Mystery
+, Romance
+",2009
+The Bridge on the River Kwai,"UK,USA",139,"14 December 1957 (USA)
+",8.2," Adventure
+, Drama
+, War
+",1957
+"Three Billboards Outside Ebbing, Missouri","UK,USA",140,"1 December 2017 (USA)
+",8.2," Comedy
+, Crime
+, Drama
+",2017
+A Beautiful Mind,USA,141,"4 January 2002 (USA)
+",8.2," Biography
+, Drama
+",2001
+"Lock, Stock and Two Smoking Barrels",UK,142,"28 August 1998 (UK)
+",8.2," Comedy
+, Crime
+",1998
+On the Waterfront,USA,143,"22 June 1954 (Japan)
+",8.2," Crime
+, Drama
+, Thriller
+",1954
+Casino,"USA,France",144,"22 November 1995 (USA)
+",8.2," Crime
+, Drama
+",1995
+The Seventh Seal,Sweden,145,"13 October 1958 (USA)
+",8.2," Drama
+, Fantasy
+",1957
+Inside Out,USA,146,"19 June 2015 (USA)
+",8.2," Animation
+, Adventure
+, Comedy
+",2015
+The Elephant Man,"USA,UK",147,"10 October 1980 (USA)
+",8.1," Biography
+, Drama
+",1980
+Room,"Ireland,Canada,UK,USA",148,"22 January 2016 (USA)
+",8.1," Drama
+, Thriller
+",2015
+Mr. Smith Goes to Washington,USA,149,"19 October 1939 (USA)
+",8.1," Comedy
+, Drama
+",1939
+The Wolf of Wall Street,USA,150,"25 December 2013 (USA)
+",8.1," Biography
+, Comedy
+, Crime
+",2013
+V for Vendetta,"USA,UK,Germany",151,"17 March 2006 (USA)
+",8.1," Action
+, Drama
+, Sci-Fi
+",2005
+Warrior,USA,152,"9 September 2011 (USA)
+",8.1," Drama
+, Sport
+",2011
+Blade Runner,"USA,Hong Kong",153,"25 June 1982 (USA)
+",8.1," Sci-Fi
+, Thriller
+",1982
+The General,USA,154,"24 February 1927 (France)
+",8.1," Action
+, Adventure
+, Comedy
+",1926
+Wild Strawberries,Sweden,155,"22 June 1959 (USA)
+",8.1," Drama
+, Romance
+",1957
+Dial M for Murder,USA,156,"29 May 1954 (USA)
+",8.1," Crime
+, Thriller
+",1954
+Trainspotting,UK,157,"9 August 1996 (USA)
+",8.1," Drama
+",1996
+No Country for Old Men,USA,158,"21 November 2007 (USA)
+",8.1," Crime
+, Drama
+, Thriller
+",2007
+There Will Be Blood,USA,159,"25 January 2008 (USA)
+",8.1," Drama
+",2007
+The Sixth Sense,USA,160,"6 August 1999 (USA)
+",8.1," Drama
+, Mystery
+, Thriller
+",1999
+Gone with the Wind,USA,161,"17 January 1940 (USA)
+",8.1," Drama
+, History
+, Romance
+",1939
+The Thing,USA,162,"25 June 1982 (USA)
+",8.1," Horror
+, Mystery
+, Sci-Fi
+",1982
+Fargo,"USA,UK",163,"5 April 1996 (USA)
+",8.1," Crime
+, Drama
+, Thriller
+",1996
+Gran Torino,"Germany,USA",164,"9 January 2009 (USA)
+",8.1," Drama
+",2008
+The Deer Hunter,"USA,UK",165,"23 February 1979 (USA)
+",8.1," Drama
+, War
+",1978
+Finding Nemo,USA,166,"30 May 2003 (USA)
+",8.1," Animation
+, Adventure
+, Comedy
+",2003
+Come and See,Soviet Union,167,"17 October 1985 (Hungary)
+",8.1," Drama
+, War
+",1985
+Sherlock Jr.,USA,168,"11 May 1924 (USA)
+",8.1," Action
+, Comedy
+, Romance
+",1924
+The Big Lebowski,"USA,UK",169,"6 March 1998 (USA)
+",8.1," Comedy
+, Crime
+",1998
+Kill Bill: Vol. 1,USA,170,"10 October 2003 (USA)
+",8.1," Action
+, Crime
+, Thriller
+",2003
+Shutter Island,USA,171,"19 February 2010 (USA)
+",8.1," Mystery
+, Thriller
+",2010
+Cool Hand Luke,USA,172,"1 November 1967 (USA)
+",8.1," Crime
+, Drama
+",1967
+Rebecca,USA,173,"12 April 1940 (USA)
+",8.1," Drama
+, Mystery
+, Romance
+",1940
+Tokyo Story,Japan,174,"13 March 1972 (USA)
+",8.1," Drama
+",1953
+Mary and Max,Australia,175,"9 April 2009 (Australia)
+",8.1," Animation
+, Comedy
+, Drama
+",2009
+Hacksaw Ridge,"Australia,USA",176,"4 November 2016 (USA)
+",8.1," Biography
+, Drama
+, History
+",2016
+Sunrise,USA,177,"4 November 1927 (USA)
+",8.1," Drama
+, Romance
+",1927
+How to Train Your Dragon,USA,178,"26 March 2010 (USA)
+",8.1," Animation
+, Action
+, Adventure
+",2010
+Gone Girl,USA,179,"3 October 2014 (USA)
+",8.1," Crime
+, Drama
+, Mystery
+",2014
+Wild Tales,"Argentina,Spain",180,"21 August 2014 (Argentina)
+",8.1," Comedy
+, Drama
+, Thriller
+",2014
+Jurassic Park,USA,181,"11 June 1993 (USA)
+",8.1," Adventure
+, Sci-Fi
+, Thriller
+",1993
+Into the Wild,USA,182,"19 October 2007 (USA)
+",8.1," Adventure
+, Biography
+, Drama
+",2007
+The Bandit,"Turkey,France,Bulgaria",183,"29 November 1996 (Turkey)
+",8.1," Crime
+, Drama
+, Thriller
+",1996
+Life of Brian,UK,184,"17 August 1979 (USA)
+",8.1," Comedy
+",1979
+It Happened One Night,USA,185,"22 February 1934 (USA)
+",8.1," Comedy
+, Romance
+",1934
+A Star Is Born,USA,186,"5 October 2018 (USA)
+",8.1," Drama
+, Music
+, Romance
+",2018
+In the Name of the Father,"Ireland,UK,USA",187,"25 February 1994 (USA)
+",8.1," Biography
+, Drama
+",1993
+Platoon,USA,188,"6 February 1987 (USA)
+",8.1," Drama
+, War
+",1986
+The Grand Budapest Hotel,"USA,Germany",189,"28 March 2014 (USA)
+",8.1," Adventure
+, Comedy
+, Drama
+",2014
+Stand by Me,USA,190,"26 November 1986 (USA)
+",8.1," Adventure
+, Drama
+",1986
+The Truman Show,USA,191,"5 June 1998 (USA)
+",8.1," Comedy
+, Drama
+, Sci-Fi
+",1998
+Network,USA,192,"27 November 1976 (USA)
+",8.1," Drama
+",1976
+Stalker,Soviet Union,193,"17 April 1980 (Netherlands)
+",8.1," Drama
+, Sci-Fi
+",1979
+Hotel Rwanda,"UK,South Africa,Italy",194,"4 February 2005 (USA)
+",8.1," Biography
+, Drama
+, History
+",2004
+Ben-Hur,USA,195,"29 January 1960 (Brazil)
+",8.1," Adventure
+, Drama
+, History
+",1959
+Persona,Sweden,196,"16 March 1967 (USA)
+",8.1," Drama
+, Thriller
+",1966
+Memories of Murder,South Korea,197,"2 May 2003 (South Korea)
+",8.1," Action
+, Crime
+, Drama
+",2003
+12 Years a Slave,"USA,UK",198,"8 November 2013 (USA)
+",8.1," Biography
+, Drama
+, History
+",2013
+Andrei Rublev,Soviet Union,199,"October 1973 (USA)
+",8.1," Biography
+, Drama
+, History
+",1966
+The Wages of Fear,"France,Italy",200,"16 February 1955 (USA)
+",8.1," Adventure
+, Drama
+, Thriller
+",1953
+Million Dollar Baby,USA,201,"28 January 2005 (USA)
+",8.1," Drama
+, Sport
+",2004
+The Passion of Joan of Arc,France,202,"25 October 1928 (France)
+",8.1," Biography
+, Drama
+, History
+",1928
+Rush,"UK,Germany,USA",203,"27 September 2013 (USA)
+",8.1," Action
+, Biography
+, Drama
+",2013
+Rang De Basanti,India,204,"26 January 2006 (USA)
+",8.1," Comedy
+, Drama
+",2006
+Mad Max: Fury Road,"Australia,USA",205,"15 May 2015 (USA)
+",8.1," Action
+, Adventure
+, Sci-Fi
+",2015
+Before Sunrise,"USA,Austria,Switzerland",206,"27 January 1995 (USA)
+",8.1," Drama
+, Romance
+",1995
+The 400 Blows,France,207,"16 November 1959 (USA)
+",8.1," Crime
+, Drama
+",1959
+Spotlight,USA,208,"20 November 2015 (USA)
+",8.1," Crime
+, Drama
+, History
+",2015
+Prisoners,USA,209,"20 September 2013 (USA)
+",8.1," Crime
+, Drama
+, Mystery
+",2013
+Hachi: A Dog's Tale,"UK,USA",210,"12 March 2010 (UK)
+",8.1," Drama
+, Family
+",2009
+Logan,USA,211,"3 March 2017 (USA)
+",8.1," Action
+, Drama
+, Sci-Fi
+",2017
+Amores Perros,Mexico,212,"13 April 2001 (USA)
+",8.1," Drama
+, Thriller
+",2000
+The Princess Bride,USA,213,"9 October 1987 (USA)
+",8.1," Adventure
+, Family
+, Fantasy
+",1987
+Nausica? of the Valley of the Wind,"Japan,USA",214,"11 March 1984 (Japan)
+",8," Animation
+, Adventure
+, Fantasy
+",1984
+Catch Me If You Can,"USA,Canada",215,"25 December 2002 (USA)
+",8," Biography
+, Crime
+, Drama
+",2002
+Butch Cassidy and the Sundance Kid,USA,216,"24 October 1969 (USA)
+",8," Biography
+, Crime
+, Drama
+",1969
+Harry Potter and the Deathly Hallows: Part 2,"USA,UK",217,"15 July 2011 (USA)
+",8," Adventure
+, Drama
+, Fantasy
+",2011
+Rocky,USA,218,"3 December 1976 (USA)
+",8," Drama
+, Sport
+",1976
+Barry Lyndon,"UK,USA",219,"18 December 1975 (USA)
+",8," Adventure
+, Drama
+, History
+",1975
+"Monsters, Inc.",USA,220,"2 November 2001 (USA)
+",8," Animation
+, Adventure
+, Comedy
+",2001
+The Grapes of Wrath,USA,221,"15 March 1940 (USA)
+",8," Drama
+, History
+",1940
+The Maltese Falcon,USA,222,"18 October 1941 (USA)
+",8," Film-Noir
+, Mystery
+",1941
+Donnie Darko,USA,223,"26 October 2001 (USA)
+",8," Drama
+, Sci-Fi
+, Thriller
+",2001
+Diabolique,France,224,"21 November 1955 (USA)
+",8," Crime
+, Drama
+, Horror
+",1955
+The Terminator,"UK,USA",225,"26 October 1984 (USA)
+",8," Action
+, Sci-Fi
+",1984
+Dead Poets Society,USA,226,"9 June 1989 (USA)
+",8," Comedy
+, Drama
+",1989
+Gandhi,"UK,India,USA",227,"25 February 1983 (USA)
+",8," Biography
+, Drama
+, History
+",1982
+Sanjuro,Japan,228,"7 May 1963 (USA)
+",8," Action
+, Crime
+, Drama
+",1962
+La Haine,France,229,"23 February 1996 (USA)
+",8," Crime
+, Drama
+",1995
+Groundhog Day,USA,230,"12 February 1993 (USA)
+",8," Comedy
+, Fantasy
+, Romance
+",1993
+The Nights of Cabiria,"Italy,France",231,"16 October 1957 (France)
+",8," Drama
+",1957
+The Wizard of Oz,USA,232,"25 August 1939 (USA)
+",8," Adventure
+, Family
+, Fantasy
+",1939
+Blade Runner 2049,"USA,UK,Hungary,Canada",233,"6 October 2017 (USA)
+",8," Drama
+, Mystery
+, Sci-Fi
+",2017
+Jaws,USA,234,"20 June 1975 (USA)
+",8," Adventure
+, Drama
+, Thriller
+",1975
+La La Land,"USA,Hong Kong",235,"25 December 2016 (USA)
+",8," Comedy
+, Drama
+, Music
+",2016
+The Help,"USA,India,United Arab Emirates",236,"10 August 2011 (USA)
+",8," Drama
+",2011
+In the Mood for Love,"Hong Kong,China",237,"9 March 2001 (USA)
+",8," Drama
+, Romance
+",2000
+Paper Moon,USA,238,"9 May 1973 (USA)
+",8," Comedy
+, Crime
+, Drama
+",1973
+Gangs of Wasseypur,India,239,"2 August 2012 (Singapore)
+",8," Action
+, Comedy
+, Crime
+",2012
+Tangerines,"Estonia,Georgia",240,"17 April 2015 (USA)
+",8," Drama
+, War
+",2013
+Before Sunset,USA,241,"30 July 2004 (USA)
+",8," Drama
+, Romance
+",2004
+"Paris, Texas","West Germany,France,UK,USA",242,"23 August 1984 (UK)
+",8," Drama
+",1984
+The Handmaiden,South Korea,243,"1 June 2016 (South Korea)
+",8," Drama
+, Romance
+, Thriller
+",2016
+The Best Years of Our Lives,USA,244,"29 May 1947 (Mexico)
+",8," Drama
+, Romance
+, War
+",1946
+Guardians of the Galaxy,USA,245,"1 August 2014 (USA)
+",8," Action
+, Adventure
+, Comedy
+",2014
+The Bourne Ultimatum,"USA,Germany,France,Spain",246,"3 August 2007 (USA)
+",8," Action
+, Mystery
+, Thriller
+",2007
+PK,India,247,"22 May 2015 (China)
+",8," Comedy
+, Drama
+, Fantasy
+",2014
+Pirates of the Caribbean: The Curse of the Black Pearl,USA,248,"9 July 2003 (USA)
+",8," Action
+, Adventure
+, Fantasy
+",2003
+Drishyam,India,249,"31 July 2015 (USA)
+",8," Crime
+, Drama
+, Thriller
+",2015
+Castle in the Sky,Japan,250,"1992 (China)
+",8," Animation
+, Adventure
+, Fantasy
+",1986
