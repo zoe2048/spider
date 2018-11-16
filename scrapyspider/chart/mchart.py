@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 from pyecharts import Bar
 
-# 获取TOP250中电影年份和对应的电影数
+# 获取Top250中电影年份和对应的电影数
 def movies_years(infile,L=None,x=None,y=None):
     '''
     :param infile：要读取数据用于图形化的文件,txt的文件
@@ -27,7 +27,7 @@ def movies_years(infile,L=None,x=None,y=None):
             y.append(count)
     return L,x,y
 
-# 可视化TOP250中不同年代对应的电影数
+# 可视化Top250中不同年代对应的电影数
 def chart_years(infile,outfile,title):
     '''
     :param infile: 在movies_years()中要处理的电影数据原始文件
@@ -39,12 +39,12 @@ def chart_years(infile,outfile,title):
     bar.add('电影年份',years[1],years[2])
     bar.render(outfile)
 
-# 可视化TOP250中不同年代对应的电影数
-def chart_ages(infile,outfile,title):
+
+# 获取Top250中不同年对对应的电影数
+def movies_ages(infile):
     '''
     :param infile: 在movies_years() 中要处理的电影数据原始文件
-    :param outfile: 可视化柱形图后导出的文件，html格式
-    :param title: 可视化柱形图的图示标题
+    :return: （年代，年代电影数）
     '''
     years= movies_years(infile)
     x_new = []
@@ -58,15 +58,33 @@ def chart_ages(infile,outfile,title):
             if aa == bb:
                 ages_movies += 1
         y_new.append(ages_movies)
-    bar = Bar(title,'')
-    bar.add('年代',x_new_uniq,y_new)
+    return x_new_uniq,y_new
+
+# 可视化Top250不同年代分布电影数：堆叠柱形图,已知豆瓣榜单最前面年代电影数为0
+def chart_ages(imdb_file,doub_file,outfile,title = 'Top250电影不同年代分布'):
+    """
+    :param imdb_file: imdb榜单的年份数据
+    :param doub_file: 豆瓣榜单的年份数据
+    :param outfile: 输出的可视化图表
+    :param title: 可视化图表名
+    """
+
+    iages = movies_ages(imdb_file)
+    dages = movies_ages(doub_file)
+    # 柱形图X轴：年代
+    attr = iages[0]
+    # 堆叠柱形图Y轴：imdb电影数
+    v1 = iages[1]
+    #堆叠柱形图Y轴：豆瓣电影数
+    dages[1].insert(0,0)
+    v2 = dages[1]
+    bar = Bar(title)
+    bar.add("IMDb",attr,v1,is_stack=True)
+    bar.add("Douban",attr,v2,is_stack=True)
     bar.render(outfile)
 
 # test
-chart_years(r'./imdb_year.txt',r'./imdb_years.html','IMDB TOP250中不同年份对应的电影数分布')
-chart_ages(r'./imdb_year.txt',r'./imdb_ages.html','IMDB TOP250中不同年代对应的电影数分布')
-
-
+chart_ages(r'./data/imdb/imdb_year.txt',r'./data/doub/doub_year.txt',r'./ages.html')
 
 
 
