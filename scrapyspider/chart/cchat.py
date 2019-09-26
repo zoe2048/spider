@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # 可视化豆瓣和IMDb Top250电影榜单制片国家电影数分布
+# country.txt数据来源于extractdata.py从爬取的数据中提取的国家/地区
 
 from pyecharts import Pie
 
@@ -17,7 +18,7 @@ def movies_country(infile, d=None):
     with open(infile, encoding='utf-8-sig') as f:
         for line in f.readlines():
             if 'doub' in infile:
-                new_line = line.strip().split('  ')
+                new_line = line.strip().split(' ')
             else:
                 new_line = line.strip().split(',')
             # 有联合制片国家的，只取联合制片的第一个国家
