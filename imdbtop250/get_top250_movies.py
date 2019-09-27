@@ -7,11 +7,12 @@ import pymysql
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
 
+
 def get_top250_movies_list():
-    '''
+    """
     获取电影海报、分数、详情链接、上映年份、电影名、电影id信息
     movie_id:通过在页面获取的数字做为电影信息表的id
-    '''
+    """
     url = "http://www.imdb.com/chart/top"
     try:
         response = requests.get(url)

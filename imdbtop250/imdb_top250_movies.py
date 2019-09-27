@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
 
+
 def get_top250_movies_list():
     url = "http://www.imdb.com/chart/top"
     try:
@@ -76,7 +77,7 @@ def get_movie_detail_data(movie_data):
             movie_data['director_id'] = person_id
             movie_data['director_name'] = director_name.string
             store_director_data_in_db(movie_data)
-            #parse Cast's data
+            # parse Cast's data
             cast = soup.select('table.cast_list tr[class!="castlist_label"]')
             for actor in get_cast_data(cast):
                 store_actor_data_to_db(actor, movie_data)
