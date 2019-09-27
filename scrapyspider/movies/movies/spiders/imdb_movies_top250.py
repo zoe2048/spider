@@ -38,12 +38,11 @@ class ImdbMovieTop250(Spider):
             next_url = 'https://www.imdb.com' + link
             yield Request(next_url,headers=self.headers,meta={'item':item},callback=self.parse_detail)
 
-
     def parse_detail(self,response):
-        item = response.meta['item'] #获取parse()传递的item参数
+        item = response.meta['item']  # 获取parse()传递的item参数
         item['tag'] = response.xpath('//div[@class="subtext"]//a[contains(@href,"search")]/text()').extract()
         item['relinfo'] = response.xpath('//div[@class="subtext"]//a[contains(@href,"release")]/text()').extract()
-        item['country'] =  response.xpath('//div[@id="titleDetails"]//div[@class="txt-block"]//a[contains(@href,"country")]/text()').extract()[0]
+        item['country'] = response.xpath('//div[@id="titleDetails"]//div[@class="txt-block"]//a[contains(@href,"country")]/text()').extract()[0]
         item['director'] = response.xpath('//div[@class="credit_summary_item"]//a[contains(@href,"dr")]/text()').extract()[0]
         yield item
 

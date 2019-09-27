@@ -60,6 +60,7 @@ def store_movie_data_to_db(movie_data):
     else:
         print("This movie ALREADY EXISTED!!!")
 
+
 def get_movie_detail_data(movie_data):
     url = "http://www.imdb.com" + movie_data['movie_link']
     try:
@@ -84,6 +85,7 @@ def get_movie_detail_data(movie_data):
     except RequestException:
         print("Get Movie URL failed!")
         return None
+
 
 def get_cast_data(cast):
     for actor in cast:
@@ -164,7 +166,7 @@ def store_actor_data_to_db(actor, movie):
         print("Failed to fetch data")
 
     if result.__len__() == 0:
-        #转义特殊字符
+        # 转义特殊字符
         actor['actor_name']=pymysql.escape_string(actor['actor_name'])
         sql = "INSERT INTO actors  (id, name) VALUES ('%d', '%s')" % (actor['actor_id'], actor['actor_name'])
 
@@ -217,7 +219,7 @@ def main():
 
 
 if __name__ == '__main__':
-    #conn=mysql.connector.connect(host='192.168.99.100',port='3306',user='root',password='admin',database='imdb_movies')
-    conn=pymysql.connect(host='192.168.99.100',port=3306,user='root',password='admin',database='imdb_movies',charset='utf8')
-    cursor=conn.cursor()
+    # conn=mysql.connector.connect(host='192.168.99.100',port='3306',user='root',password='admin',database='imdb_movies')
+    conn = pymysql.connect(host='192.168.99.100', port=3306, user='root', password='admin', database='imdb_movies', charset='utf8')
+    cursor = conn.cursor()
     main()

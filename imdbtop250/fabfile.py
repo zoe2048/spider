@@ -14,21 +14,20 @@ from fabric.api import *
 
 
 # 服务器登录用户名及服务器地址
-# env.user='root'
-# env.hosts=['ip']
-env.user=''
-env.hosts=['']
+# env.user = 'root'
+# env.hosts = ['ip']
+env.user = ''
+env.hosts = ['']
 
 
 # 服务器mysql用户名和口令
-db_user=''
-db_password=''
+db_user = ''
+db_password = ''
 
 
-_TMP_FILE='tmp'
+_TMP_FILE = 'tmp'
 
 _REMOTE_TMP_DIR = '/home/ubuntu/%s' % _TMP_FILE
-
 
 
 def deploy():

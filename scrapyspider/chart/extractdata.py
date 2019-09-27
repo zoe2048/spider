@@ -43,7 +43,7 @@ def writecountrytotxt(indata, outfile):
             f.write(c + '\n')
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     doubc = extract_country(doubcsvpath)
     imdbc = extract_country(imdbcsvpath)
     doubcountry = os.path.join(doubpath, 'country.txt')

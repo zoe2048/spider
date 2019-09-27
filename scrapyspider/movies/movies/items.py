@@ -13,6 +13,7 @@ class MoviesItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+
 class DoubanMovieItem(scrapy.Item):
     # 排名
     ranking = scrapy.Field()
@@ -24,6 +25,7 @@ class DoubanMovieItem(scrapy.Item):
     score_num = scrapy.Field()
     # 电影类型
     tag = scrapy.Field()
+
 
 class ImdbMovieItem(scrapy.Item):
     # 排名

@@ -7,6 +7,7 @@ import pymysql
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
 
+
 def get_cast_data(cast):
     for actor in cast:
         actor_data = actor.select_one('td[itemprop="actor"] a')
