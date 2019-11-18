@@ -13,7 +13,7 @@ class ImdbMovieTop250(Spider):
 
     def start_requests(self):
         url = 'http://www.imdb.com/chart/top'
-        yield Request(url,headers=self.headers)
+        yield Request(url, headers=self.headers)
     '''
     def parse(self, response):
         item = ImdbMovieItem()
@@ -38,7 +38,7 @@ class ImdbMovieTop250(Spider):
             next_url = 'https://www.imdb.com' + link
             yield Request(next_url,headers=self.headers,meta={'item':item},callback=self.parse_detail)
 
-    def parse_detail(self,response):
+    def parse_detail(self, response):
         item = response.meta['item']  # 获取parse()传递的item参数
         item['tag'] = response.xpath('//div[@class="subtext"]//a[contains(@href,"search")]/text()').extract()
         item['relinfo'] = response.xpath('//div[@class="subtext"]//a[contains(@href,"release")]/text()').extract()
