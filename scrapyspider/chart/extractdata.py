@@ -7,6 +7,7 @@
 
 import os
 import csv
+import re
 
 basepath = os.path.abspath('.')
 datapath = os.path.join(basepath, 'data')
@@ -43,7 +44,33 @@ def writecountrytotxt(indata, outfile):
             f.write(c + '\n')
 
 
+def extract_year(infile):
+    if 'doub' in infile:
+        with open(infile, newline='') as f:
+            next(f)
+            reader = csv.reader(f)
+            for row in reader:
+                tag = row[4]
+                yearsp = re.compile(r'\d+')
+                year = yearsp.search(tag).group()
+                yield year
+    elif 'imdb' in infile:
+        with open(infile, newline='') as f:
+            next(f)
+            reader = csv.reader(f)
+            for row in reader:
+                year = row[6]
+                yield year
+
+
+def writeyeartotxt(indata, outfile):
+    with open(outfile, 'a+', encoding='utf-8-sig') as f:
+        for c in indata:
+            f.write(c + '\n')
+
+
 if __name__ == '__main__':
+    # 生成country.txt
     doubc = extract_country(doubcsvpath)
     imdbc = extract_country(imdbcsvpath)
     doubcountry = os.path.join(doubpath, 'country.txt')
@@ -54,6 +81,18 @@ if __name__ == '__main__':
         os.remove(imdbcountry)
     writecountrytotxt(doubc, doubcountry)
     writecountrytotxt(imdbc, imdbcountry)
+
+    # 生成year.txt
+    doubcy = extract_year(doubcsvpath)
+    imdbcy = extract_year(imdbcsvpath)
+    doubyear = os.path.join(doubpath, 'year.txt')
+    imdbyear = os.path.join(imdbpath, 'year.txt')
+    if os.path.exists(doubyear):
+        os.remove(doubyear)
+    if os.path.exists(imdbyear):
+        os.remove(imdbyear)
+    writeyeartotxt(doubcy, doubyear)
+    writeyeartotxt(imdbcy, imdbyear)
 
 
 
