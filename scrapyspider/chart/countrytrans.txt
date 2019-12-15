@@ -1,0 +1,247 @@
+﻿Afghanistan,AFG,阿富汗
+Armenia,ARM,亚美尼亚
+Azerbaijan,AZE,阿塞拜疆
+Bahrain,BHR,巴林
+Bangladesh,BGD,孟加拉
+Bhutan,BTN,不丹
+British Indian Ocean Territory,IOT,英属印度洋领地
+Brunei,BRN,文莱
+Cambodia,KHM,柬埔寨
+China,CHN,中国大陆
+Cocos(Keeling)Islands,CCK,科科斯群岛
+Georgia,GEO,乔治亚
+India,IND,印度
+Indonesia,IDN,印度尼西亚
+Iran,IRN,伊朗
+Iraq,IRQ,伊拉克
+Israel,ISR,以色列
+Japan,JPN,日本
+Jordan,JOR,约旦
+Kazakhstan,KAZ,哈萨克斯坦
+Korea,KOR,韩国
+Kuwait,KWT,科威特
+Kyrgyzstan,KGZ,吉尔吉斯斯坦
+Laos,LAO,老挝
+Lebanon,LBN,黎巴嫩
+Malaysia,MYS,马来西亚
+Maldives,MDV,马尔代夫
+Mongolia,MNG,蒙古
+Myanmar,MMR,缅甸
+Nepal,NPL,尼泊尔
+North Korea,PRK,朝鲜
+Oman,OMN,阿曼
+Pakistan,PAK,巴基斯坦
+Palestinian Authority,PSE,巴勒斯坦
+Philippines,PHL,菲律宾
+Qatar,QAT,卡塔尔
+Saudi Arabia,SAU,沙特阿拉伯
+Singapore,SGP,新加坡
+Sri Lanka,LKA,斯里兰卡
+Syria,SYR,叙利亚
+Tajikistan,TJK,塔吉克斯坦
+Thailand,THA,泰国
+Turkey,TUR,土耳其
+Turkmenistan,TKM,土库曼斯坦
+United Arab Emirates,ARE,阿拉伯联合酋长国
+Uzbekistan,UZB,乌兹别克斯坦
+Vietnam,VNM,越南
+Yemen,YEM,也门
+Hong Kong,HKG,香港
+Macao,MAC,澳门
+TaiWan,TWN,台湾
+Aland lslands,ALA,奥兰群岛
+Albania,ALB,阿尔巴尼亚
+Andorra,AND,安道尔
+Austria,AUT,奥地利
+Belgium,BEL,比利时
+Bosnia and Herzegovina,BIH,波斯尼亚和黑塞哥维那
+Bulgaria,BGR,保加利亚
+Croatia,HRV,克罗地亚
+Cyprus,CYP,塞浦路斯
+Czech Republic,CZE,捷克共和国
+Denmark,DNK,丹麦
+Estonia,EST,爱沙尼亚
+Faroe Islands,FRO,法罗群岛
+Finland,FIN,芬兰
+France,FRA,法国
+Germany,DEU,德国
+Gibraltar,GIB,直布罗陀
+Greece,GRC,希腊
+Guernsey,GGY,格恩西岛
+Hungary,HUN,匈牙利
+Iceland,ISL,冰岛
+Ireland,IRL,爱尔兰
+Isle of Man,IMN,曼岛
+Italy,ITA,意大利
+Jersey,JEY,泽西岛
+Latvia,LVA,拉脱维亚
+Liechtenstein,LIE,列支敦士登
+Lithuania,LTU,立陶宛
+Luxembourg,LUX,卢森堡
+Macedonia,Former Yugoslav Republic of,MKD,马其顿
+Malta,MLT,马耳他
+Moldova,MDA,摩尔多瓦
+Monaco,MCO,摩纳哥
+Netherlands,NLD,荷兰
+Norway,NOR,挪威
+Poland,POL,波兰
+Portugal,PRT,葡萄牙
+Romania,ROU,罗马尼亚
+Russia,RUS,俄罗斯
+San Marino,SMR,圣马力诺
+Slovakia,SVK,斯洛伐克
+Slovenia,SVN,斯洛文尼亚
+Spain,ESP,西班牙
+Svalbard and Jan Mayen,SJM,斯瓦尔巴和扬马廷
+Sweden,SWE,瑞典
+Switzerland,CHE,瑞士
+Ukraine,UKR,乌克兰
+United Kingdom,GBR,英国
+Vatican City,VAT,梵蒂冈
+White Russia,BLR,白俄罗斯
+Montenegro,MNE,黑山
+Serbia,SRB,塞尔维亚
+Algeria,DZA,阿尔及利亚
+Angola,AGO,安哥拉
+Ascension Island,ASC,阿森松岛
+Benin,BEN,贝宁
+Botswana,BWA,博茨瓦纳
+Burkina Faso,BFA,布基纳法索
+Burundi,BDI,布隆迪
+Cameroon,CMR,喀麦隆
+Cape Verde,CPV,佛得角
+Central African Republic,CAF,中非共和国
+Chad,TCD,乍得
+Comoros,COM,科摩罗
+Congo,COG,刚果
+Congo(DRC),COD,刚果民主共和国
+Cote d'Ivoire,CIV,科特迪瓦
+Djibouti,DJI,吉布提
+Egypt,EGY,埃及
+Eritrea,ERI,厄立特里亚
+Ethiopia,ETH,埃塞俄比亚
+Gabon,GAB,加蓬
+Gambia,GMB,冈比亚
+Ghana,GHA,加纳
+Guinea,GIN,几内亚
+Guinea-Bissau,GNB,几内亚比绍
+Kenya,KEN,肯尼亚
+Lesotho,LSO,莱索托
+Liberia,LBR,利比里亚
+Libya,LBY,利比亚
+Madagascar,MDG,马达加斯加
+Malawi,MWI,马拉维
+Mali,MLI,马里
+Mauritania,MRT,毛里塔尼亚
+Mauritius,MUS,毛里求斯
+Mayotte,MYT,马约特岛
+Morocco,MAR,摩洛哥
+Mozambique,MOZ,莫桑比克
+Namibia,NAM,纳米比亚
+Niger,NER,尼日尔
+Nigeria,NGA,尼日利亚
+Reunion,REU,留尼旺岛
+Rwanda,RWA,卢旺达
+Sao Tome and Principe,STP,圣多美和普林西比
+Senegal,SEN,塞内加尔
+Seychelles,SYC,塞舌尔
+Sierra Leone,SLE,塞拉利昂
+Somalia,SOM,索马里
+South Africa,ZAF,南非
+St.Helena,SHN,圣赫勒拿
+Sudan,SDN,苏丹
+Swaziland,SWZ,斯威士兰
+Tanzania,TZA,坦桑尼亚
+Togo,TGO,多哥
+Tristan da Cunha,TAA,特里斯坦-达库尼亚
+Tunisia,TUN,突尼斯
+Uganda,UGA,乌干达
+Zambia,ZMB,赞比亚
+Zimbabwe,ZWE,津巴布韦
+Western Sahara,ESH,西撒哈拉
+Equatorial Guinea,GNQ,赤道几内亚
+American Samoa,ASM,美属萨摩亚
+Australia,AUS,澳大利亚
+Christmas Island,CXR,圣诞岛
+Cook Islands,COK,库克群岛
+Fiji Islands,FJI,斐济
+Frech Polynesia,PYF,法属波利尼西亚
+Guam,GUM,关岛
+Heard Island and McDonald Islands,HMD,赫德和麦克唐纳群岛
+Kiribati,KIR,基里巴斯
+Marshall Islands,MHL,马绍尔群岛
+Micronesia,FSM,密克罗尼西亚
+Nauru,NRU,瑙鲁
+New Caledonia,NCL,新喀里多尼亚
+New Zealand,NZL,新西兰
+Niue,NIU,纽埃
+Norfolk Island,NFK,诺福克
+Northern Mariana Islands,MNP,北马里亚纳群岛
+Palau,PLW,帕劳群岛
+Papua New Guinea,PNG,巴布亚新几内亚
+Pitcairn Islands,PCN,皮特凯恩
+Samoa,WSM,萨摩亚
+Solomon Islands,SLB,所罗门群岛
+Timor-Leste,TLS,东帝汶
+Tokelau,TKL,托克劳
+Tonga,TON,汤加
+Tuvalu,TUV,图瓦卢
+United States Minor Outlying Islands,UMI,美属外岛
+Vanuatu,VUT,瓦努阿图
+Wallis and Futuna,WLF,瓦利斯和福图纳
+St. Martin (French part),MAF,密克罗尼西亚
+Anguilla,AIA,安圭拉
+Antigua and Barbuda,ATG,安提瓜岛和巴布达
+Aruba,ABW,阿鲁巴
+Bahamas,BHS,巴哈马
+Barbados,BRB,巴巴多斯岛
+Belize,BLZ,伯利兹
+Bermuda,BMU,百慕大
+Canada,CAN,加拿大
+Cayman Islands,CYM,开曼群岛
+Costa Rica,CRI,哥斯达黎加
+Cuba,CUB,古巴
+Dominica,DMA,多米尼加
+Dominican Republic,DOM,多米尼加共和国
+El Salvador,SLV,萨尔瓦多
+Greenland,GRL,格陵兰
+Grenada,GRD,格林纳达
+Guadeloupe,GLP,瓜德罗普
+Guatemala,GTM,危地马拉
+Haiti,HTI,海地
+Honduras,HND,洪都拉斯
+Jamaica,JAM,牙买加
+Martinique,MTQ,马提尼克
+Mexico,MEX,墨西哥
+Montserrat,MSR,蒙特塞拉特
+Netherlands Antilles,ANT,荷属安地列斯
+Nicaragua,NIC,尼加拉瓜
+Panama,PAN,巴拿马
+Puerto Rico,PRI,波多黎各
+St.Kitts and Nevis,KNA,圣基茨和尼维斯
+St.Lucia,LCA,圣卢西亚
+St.Pierre and Miquelon,SPM,圣皮埃尔和米克隆群岛
+St.Vincent and the Grenadines,VCT,圣文森特和格林纳丁斯
+Trinidad and Tobago,TTO,特立尼达和多巴哥
+Turks and Caicos Islands,TCA,特克斯和凯科斯群岛
+United States,USA,美国
+Virgin Islands,VIR,维尔京群岛，美属
+Virgin Islands,British,VGB,维尔京群岛，英属
+Antarctica,ATA,南极洲
+Bouvet Island,BVT,布韦岛
+Falkland Islands,FLK,福克兰群岛
+French Southern and Antarctic Lands,ATF,法属南部领地
+South Georgia and South Sandwich Islands,SGS,南乔治亚和南桑威奇群岛
+Argentina,ARG,阿根廷
+Bolivia,BOL,玻利维亚
+Brazil,BRA,巴西
+Chile,CHL,智利
+Colombia,COL,哥伦比亚
+Ecuador,ECU,厄瓜多尔
+French Guiana,GUF,法属圭亚那
+Guyana,GUY,圭亚那
+Paraguay,PRY,巴拉圭
+Peru,PER,秘鲁
+Suriname,SUR,苏里南
+Uruguay,URY,乌拉圭
+Venezuela,VEN,委内瑞拉
