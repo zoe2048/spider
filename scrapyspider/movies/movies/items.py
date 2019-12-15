@@ -15,35 +15,23 @@ class MoviesItem(scrapy.Item):
 
 
 class DoubanMovieItem(scrapy.Item):
-    # 排名
-    ranking = scrapy.Field()
-    # 电影名
+    ranking = scrapy.Field()  # 排名
     movie_name = scrapy.Field()
-    # 评分
     score = scrapy.Field()
-    # 评分人数
     score_num = scrapy.Field()
-    # 电影类型
-    tag = scrapy.Field()
+    year = scrapy.Field()
+    info = scrapy.Field()
+    country = scrapy.Field()
+    director = scrapy.Field()
 
 
 class ImdbMovieItem(scrapy.Item):
-    # 排名
     ranking = scrapy.Field()
-    # 电影名
     movie_name = scrapy.Field()
-    # 评分
     score = scrapy.Field()
-    # 评分人数
-
-    # 上映年份
-    year =scrapy.Field()
-    # 电影类型
+    year = scrapy.Field()
     tag = scrapy.Field()
-    # 电影发行信息（年份、国家）
-    relinfo = scrapy.Field()
-    # 电影制片国家
+    info = scrapy.Field()
     country = scrapy.Field()
-    # 电影导演
     director = scrapy.Field()
 
