@@ -1,8 +1,7 @@
 # -*- coding:utf-8 -*-
 
 """
-爬虫爬取的数据，保存到csv文件中提取出制片国家/地区的数据
-并保存到txt文件供制片国家/地区电影数分布数据可视化使用
+支持将xx.csv文件中的某列写入到txt文件
 """
 
 import csv
@@ -46,22 +45,11 @@ def write_data_to_txt(infile, outfile, datatype='country'):
     :param datatype: 生成的txt文件中数据在csv的字段名称
     :return:
     """
-    if 'doub' in infile:
-        if datatype == 'country':
-            outdata = extract_data(infile, datatype)
-            delfile(doub_country)
-        elif datatype == 'year':
-            outdata = extract_data(infile, datatype)
-            delfile(doub_year)
-    elif 'imdb' in infile:
-        if datatype == 'country':
-            outdata = extract_data(infile, datatype)
-            delfile(imdb_country)
-        elif datatype == 'year':
-            outdata = extract_data(infile, datatype)
-            delfile(imdb_year)
+    if 'doub' or 'imdb' in infile:
+        outdata = extract_data(infile, datatype)
+        delfile(outfile)
     else:
-        print('提取数据的源文件csv不存在或有问题')
+        print('检查源文件csv是否存在或命名是否ok')
     with open(outfile, 'a+', encoding='utf-8-sig') as f:
         for c in outdata:
             f.write(c + '\n')
