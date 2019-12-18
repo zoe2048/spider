@@ -4,14 +4,6 @@
 # country.txt数据来源于extractdata.py生成的txt文件
 
 from pyecharts import Pie
-import setting
-from assit import delfile
-
-doub_country = setting.doub.get("cfilenm")
-doub_chtml = setting.doub.get("chtml")
-
-imdb_country = setting.imdb.get("cfilenm")
-imdb_chtml = setting.imdb.get("chtml")
 
 
 def movies_country(infile, d=None):
@@ -135,8 +127,6 @@ def chart_country(infile, outfile, title):
 
 # test
 if __name__ == '__main__':
-    delfile(doub_chtml)
-    delfile(imdb_chtml)
-    chart_country(doub_country, doub_chtml, '豆瓣Top250电影制片国家/地区分布')
-    chart_country(imdb_country, imdb_chtml, 'IMDb Top250电影制片国家/地区分布')
+    chart_country(r'./data/doub/country.txt', r'./html/doub_country.html', '豆瓣Top250电影制片国家/地区分布')
+    chart_country(r'./data/imdb/country.txt', r'./html/imdb_country.html', 'IMDb Top250电影制片国家/地区分布')
 
