@@ -1,4 +1,5 @@
-﻿Afghanistan,AFG,阿富汗
+﻿name_en,code,name_cn
+Afghanistan,AFG,阿富汗
 Armenia,ARM,亚美尼亚
 Azerbaijan,AZE,阿塞拜疆
 Bahrain,BHR,巴林
