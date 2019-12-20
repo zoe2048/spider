@@ -1,53 +1,103 @@
 # -*- coding:utf-8 -*-
 
 """
-支持将xx.csv文件中的某列写入到txt文件
+提取csv列数据，统计列中元素出现的次数并可视化为图表
 """
 
-import csv
-from assit import delfile, creat_filepaths
-import setting
+from pyecharts import Pie, Bar
+from transdata import *
 
 
-class CsvProcess(object):
-    def __init__(self, infile, outfile, filed):
-        self.infile = infile
-        self.outfile = outfile
-        self.filed = filed
-
-    def extract_data(self):
-        with open(self.infile, newline='', encoding='utf-8-sig') as f:
-            row_first = next(f).strip()
-            title = row_first.split(',')
-            filed_index = title.index(self.filed)
-            reader = csv.reader(f)
-            for row in reader:
-                data = row[filed_index]
-                yield data
-
-    def write_data_to_text(self):
-        outdata = self.extract_data()
-        delfile(self.outfile)
-        with open(self.outfile, 'a+', encoding='utf-8-sig') as f:
-            for c in outdata:
-                f.write(c + '\n')
+def extract_data_list(field, infile):
+    field_data = {}
+    with open(infile, encoding='utf-8-sig') as f:
+        reader = csv.reader(f)
+        headers = next(reader)
+        id = headers.index(field)
+        for line in reader:
+            k = line[id]
+            if k not in field_data:
+                field_data[k] = 1
+            else:
+                field_data[k] += 1
+        return field_data
 
 
-if __name__ == '__main__':
-    base = setting.basepath
-    names = setting.names
-    for name in names:
-        fields = names.get(name)
-        paths = creat_filepaths(base, name, *fields)
-        if len(paths) == 1:
-            csvpath = paths[0]
-            print('如果要提取数据，缺少要从csv提取的列名称，请在setting中配置')
-        elif len(paths) > 1:
-            csvpath, *txtpaths = paths[0], paths[1:]
-            filenm_field = sorted(zip(*txtpaths, fields))
-            for element in filenm_field:
-                cp = CsvProcess(csvpath, element[0], element[1])
-                cp.write_data_to_text()
+def get_chart_data(field, infile, istrans='no', *, transfile=None):
+    if istrans == 'no':
+        if field == 'year':
+            data = extract_data_list(field, infile)
+            sortdata = sorted(data.items(), key=lambda x: x[0])
+        elif field == 'ages':
+            ages_data = {}
+            data = extract_data_list('year', infile)
+            for year in data:
+                ages = year[:3] + '0s'
+                if ages not in ages_data:
+                    ages_data[ages] = data[year]
+                else:
+                    ages_data[ages] += data[year]
+            sortdata = sorted(data.items(), key=lambda x: x[0])
+        elif field == 'country1':
+            data = extract_data_list(field, infile)
+            newdata = union_data(data)
+            sortdata = sorted(newdata.items(), key=lambda x: x[1], reverse=True)
+        else:
+            data = extract_data_list(field, infile)
+            sortdata = sorted(data.items(), key=lambda x: x[1], reverse=True)
+        attr = [x[0] for x in sortdata]
+        v1 = [x[1] for x in sortdata]
+        return attr, v1
+    elif istrans == 'yes':
+        if field == 'country1':
+            data = extract_data_list(field, infile)
+            data_transed = translate_data(data, transfile)
+            sortdata = sorted(data_transed.items(), key=lambda x: x[1], reverse=True)
+            attr = [x[0] for x in sortdata]
+            v1 = [x[1] for x in sortdata]
+            return attr, v1
+    else:
+        print('是否需要将数据中的中英文转换，传入no或者yes')
+
+
+def chart_data(field, infile, outfile, title, charttype='bar'):
+    if charttype == 'bar':
+        chardata = get_chart_data(field, infile)
+        attr = chardata[0]
+        v1 = chardata[1]
+        bar = Bar(title, '')
+        bar.add(field, attr, v1)
+        bar.render(outfile)
+    if charttype == 'pie':
+        chardata = get_chart_data(field, infile)
+        attr = chardata[0]
+        v1 = chardata[1]
+        pie = Pie(title, title_pos='center')
+        pie.add(field, attr, v1, legend_orient='vertical', legend_pos='left', is_label_show=True, label_pos='inner', label_formatter='{c}')
+        pie.render(outfile)
+
+
+def chart_data_transed(field, infile, outfile, title, charttype='bar'):
+    if charttype == 'bar':
+        chardata = get_chart_data(field, infile)
+        attr = chardata[0]
+        v1 = chardata[1]
+        bar = Bar(title, '')
+        bar.add(field, attr, v1)
+        bar.render(outfile)
+    if charttype == 'pie':
+        chardata = get_chart_data(field, infile, 'yes', transfile='countrytrans.txt')
+        attr = chardata[0]
+        v1 = chardata[1]
+        pie = Pie(title, title_pos='center')
+        pie.add(field, attr, v1, legend_orient='vertical', legend_pos='left', is_label_show=True, label_pos='inner', label_formatter='{c}')
+        pie.render(outfile)
+
+
+
+
+
+
 
 
 
