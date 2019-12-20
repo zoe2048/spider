@@ -23,6 +23,13 @@ class DoubanMovieItem(scrapy.Item):
     info = scrapy.Field()
     country = scrapy.Field()
     director = scrapy.Field()
+    director_cn1 = scrapy.Field()
+    director_en1 = scrapy.Field()
+    director_cn2 = scrapy.Field()
+    director_en2 = scrapy.Field()
+    country1 = scrapy.Field()
+    country2 = scrapy.Field()
+    country_others = scrapy.Field()
 
 
 class ImdbMovieItem(scrapy.Item):
@@ -34,4 +41,11 @@ class ImdbMovieItem(scrapy.Item):
     info = scrapy.Field()
     country = scrapy.Field()
     director = scrapy.Field()
+    director_cn1 = scrapy.Field()
+    director_en1 = scrapy.Field()
+    director_cn2 = scrapy.Field()
+    director_en2 = scrapy.Field()
+    country1 = scrapy.Field()
+    country2 = scrapy.Field()
+    country_others = scrapy.Field()
 

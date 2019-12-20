@@ -33,7 +33,8 @@ class ImdbMovieTop250(Spider):
         item['info'] = response.xpath('//div[@class="subtext"]//a[contains(@href,"release")]/text()').extract()
         country = response.xpath('//div[@id="titleDetails"]//div[@class="txt-block"]//a[contains(@href,"country")]/text()').extract()
         item['country'] = ','.join(country)
-        item['director'] = response.xpath('//div[@class="credit_summary_item"]//a[contains(@href,"dr")]/text()').extract()[0]
+        director = response.xpath('//div[@class="credit_summary_item"]//a[contains(@href,"dr")]/text()').extract()
+        item['director'] = ','.join(director)
         yield item
 
 
