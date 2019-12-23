@@ -16,11 +16,15 @@ class MoviesPipeline(object):
             # 实际爬取后的数据不应该在此处理
             year_pt = re.compile(r'\d+')
             country_pt = re.compile(r'\d+\s/\s(.*)\s/\s')
-            drs_pt = re.compile(r'导演:\s(.*)\s\s\s[主|&nb|&n|&|...]')
             dr_cn = re.compile(r'[\u4e00-\u9fff·]+')
             dr_en = re.compile(r'[^\u4e00-\u9fff·]+')
             info = item['info']
-            directors = ''.join(drs_pt.findall(info)).split('/')
+            directors = ''.join(re.findall(r'导演:\s(.*)\s\s\s主', info))
+            if directors == '':
+                directors = ''.join(re.findall(r'导演:\s(.*)\s\s[&nb|&n|&]', info))
+            if directors == '':
+                directors = ''.join(re.findall(r'导演:\s(.*)...', info))
+            directors = directors.split('/')
             if len(directors) == 1:
                 item['director_cn1'], item['director_en1'] = ''.join(dr_cn.findall(directors[0])), ''.join(dr_en.findall(directors[0])).strip()
                 item['director_cn2'], item['director_en2'] = '', ''
@@ -42,7 +46,7 @@ class MoviesPipeline(object):
                 item['country1'], item['country2'], item['country_others'] = couns[0], couns[1], couns[2:]
             else:
                 item['country1'], item['country2'], item['country_others'] = '', '', '', ''
-            item['director'] = ''.join(drs_pt.findall(info))
+            item['director'] = directors
             item['country'] = countries
             item['year'] = year_pt.search(info).group()
             return item
