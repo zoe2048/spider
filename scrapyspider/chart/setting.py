@@ -5,13 +5,19 @@
 import os
 
 
-basepath = os.path.join(os.path.abspath('.'), 'data')
-htmlpath = os.path.join(os.path.abspath('.'), 'html')
+base = os.path.join(os.path.abspath('.'), 'data')
 
 
-# 要从csv提取数据的列名
-names = {
-    'doub': ['country', 'year'],
-    'imdb': ['country', 'year']
-         }
+files = {
+    '豆瓣': {
+        'dir': os.path.join(base, 'doub'),
+        'csv': os.path.join(base, 'doub', 'doub.csv'),
+    },
+    'IMDb': {
+        'dir': os.path.join(base, 'imdb'),
+        'csv': os.path.join(base, 'imdb', 'imdb.csv'),
+    }
+}
+
+
 
