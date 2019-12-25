@@ -3,7 +3,7 @@
 
 from extractdata import *
 import setting
-import os
+from os.path import join
 
 
 if __name__ == '__main__':
@@ -11,17 +11,18 @@ if __name__ == '__main__':
     1 生成图表\n
     2 debug\n'''))
     if n == 1:
-        for s in ['豆瓣', 'IMDb']:
-            nm = setting.files[s]
-            infile, outfile = nm['csv'], nm['dir']
-            chart_data('year', infile, os.path.join(outfile, 'year.html'), '{}TOP250不同年份电影数分布'.format(s))
-            chart_data('ages', infile, os.path.join(outfile, 'ages.html'), '{}TOP250不同年代电影数分布'.format(s))
-            if s == '豆瓣':
-                chart_data('country1', infile, os.path.join(outfile, 'country1.html'), '{}TOP250不同国家/地区电影数分布'.format(s),
+        title = '{}TOP250不同{}电影数分布'
+        for name in ['豆瓣', 'IMDb']:
+            nm = setting.files[name]
+            infile, outdir = nm['csv'], nm['dir']
+            chart_data('year', infile, join(outdir, 'year.html'), title.format(name, '年份'))
+            chart_data('ages', infile, join(outdir, 'ages.html'), title.format(name, '年代'))
+            if name == '豆瓣':
+                chart_data('country1', infile, join(outdir, 'country1.html'), title.format(name, '国家/地区'),
                            'pie')
             else:
-                chart_data_transed('country1', infile, os.path.join(outfile, 'country1.html'),
-                                   '{}TOP250不同国家/地区电影数分布'.format(s), 'pie')
+                chart_data_transed('country1', infile, join(outdir, 'country1.html'),
+                                   title.format(name, '国家/地区'), 'pie')
     elif n == 2:
         data = extract_data_list('director_cn1', setting.files['豆瓣']['csv'])
         result = [x for x in data.items() if x[1] > 2]
