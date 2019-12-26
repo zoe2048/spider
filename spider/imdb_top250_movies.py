@@ -1,5 +1,4 @@
 import re
-#import mysql.connector
 import pymysql
 import requests
 from bs4 import BeautifulSoup
@@ -41,14 +40,14 @@ def get_top250_movies_list():
 
 def store_movie_data_to_db(movie_data):
     print(movie_data)
-    sel_sql =  "SELECT * FROM top_250_movies WHERE id =  %d" % (movie_data['movie_id'])
+    sel_sql = "SELECT * FROM top_250_movies WHERE id =  %d" % (movie_data['movie_id'])
     try:
         cursor.execute(sel_sql)
         result = cursor.fetchall()
     except:
         print("Failed to fetch data")
     if result.__len__() == 0:
-        # 添加转义支持电影名带特殊字符的情况如单引号的Schindler's list
+        # 添加转义，处理电影名带特殊字符的情况如单引号Schindler's list
         movie_data['movie_name']=pymysql.escape_string(movie_data['movie_name'])
         sql = "INSERT INTO top_250_movies (id, name, year, rate) VALUES ('%d', '%s', '%d', '%f')" % (movie_data['movie_id'], movie_data['movie_name'], movie_data['year'], movie_data['movie_rate'])
         try:
@@ -105,9 +104,7 @@ def store_director_data_in_db(movie):
     sel_sql = "SELECT * FROM directors  WHERE id =  %d" % (movie['director_id'])
 
     try:
-        # 执行sql语句
         cursor.execute(sel_sql)
-        # 执行sql语句
         result = cursor.fetchall()
 
     except:
@@ -117,9 +114,7 @@ def store_director_data_in_db(movie):
         movie['director_name']=pymysql.escape_string(movie['director_name'])
         sql = "INSERT INTO directors (id, name) VALUES ('%d', '%s')" % (movie['director_id'], movie['director_name'])
         try:
-            # 执行sql语句
             cursor.execute(sql)
-            # 执行sql语句
             conn.commit()
             print("Director data ADDED to DB table directors!", movie['director_name'] )
         except:
@@ -131,24 +126,18 @@ def store_director_data_in_db(movie):
     sel_sql = "SELECT * FROM direct_movie  WHERE director_id =  %d AND movie_id = %d" % (movie['director_id'], movie['movie_id'])
 
     try:
-        # 执行sql语句
         cursor.execute(sel_sql)
-        # 执行sql语句
         result = cursor.fetchall()
-
     except:
         print("Failed to fetch data")
 
     if result.__len__() == 0:
         sql = "INSERT INTO direct_movie (director_id, movie_id) VALUES ('%d', '%d')" % (movie['director_id'], movie['movie_id'])
         try:
-            # 执行sql语句
             cursor.execute(sql)
-            # 执行sql语句
             conn.commit()
             print("Director direct movie data ADD to DB table direct_movie!")
         except:
-            # 发生错误时回滚
             conn.rollback()
     else:
         print("This Director direct movie ALREADY EXISTED!!!")
@@ -158,11 +147,8 @@ def store_actor_data_to_db(actor, movie):
     sel_sql = "SELECT * FROM actors WHERE id =  %d" % (actor['actor_id'])
 
     try:
-        # 执行sql语句
         cursor.execute(sel_sql)
-        # 执行sql语句
         result = cursor.fetchall()
-
     except:
         print("Failed to fetch data")
 
@@ -172,22 +158,17 @@ def store_actor_data_to_db(actor, movie):
         sql = "INSERT INTO actors  (id, name) VALUES ('%d', '%s')" % (actor['actor_id'], actor['actor_name'])
 
         try:
-            # 执行sql语句
             cursor.execute(sql)
-            # 执行sql语句
             conn.commit()
             print("actor data ADDED to DB table actors!")
         except:
-            # 发生错误时回滚
             conn.rollback()
     else:
         print("This actor has been saved already")
 
     sel_sql = "SELECT * FROM cast_in_movie WHERE actor_id =  %d AND movie_id = %d" % (actor['actor_id'], movie['movie_id'])
     try:
-        # 执行sql语句
         cursor.execute(sel_sql)
-        # 执行sql语句
         result = cursor.fetchall()
 
     except:
@@ -197,13 +178,10 @@ def store_actor_data_to_db(actor, movie):
         sql = "INSERT INTO cast_in_movie (actor_id, movie_id)  VALUES ('%d', '%d')" % (actor['actor_id'], movie['movie_id'])
 
         try:
-            # 执行sql语句
             cursor.execute(sql)
-            # 执行sql语句
             conn.commit()
             print("actor casted in movie data ADDED to DB table cast_in_movie!")
         except:
-            # 发生错误时回滚
             conn.rollback()
     else:
         print("This actor casted in movie data ALREADY EXISTED")
@@ -220,7 +198,6 @@ def main():
 
 
 if __name__ == '__main__':
-    # conn=mysql.connector.connect(host='192.168.99.100',port='3306',user='root',password='admin',database='imdb_movies')
     conn = pymysql.connect(host='192.168.99.100', port=3306, user='root', password='admin', database='imdb_movies', charset='utf8')
     cursor = conn.cursor()
     main()
