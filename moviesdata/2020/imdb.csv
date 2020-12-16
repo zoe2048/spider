@@ -1,0 +1,500 @@
+country,country1,country2,country_others,director,director_cn1,director_cn2,director_en1,director_en2,info,movie_name,ranking,score,tag,year
+USA,USA,,,Frank Darabont,,,Frank Darabont,,"14 October 1994 (USA)
+",The Shawshank Redemption,1,9.2,Drama,1994
+USA,USA,,,Francis Ford Coppola,,,Francis Ford Coppola,,"24 March 1972 (USA)
+",The Godfather,2,9.1,"Crime,Drama",1972
+USA,USA,,,Francis Ford Coppola,,,Francis Ford Coppola,,"18 December 1974 (USA)
+",The Godfather: Part II,3,9,"Crime,Drama",1974
+"USA,UK",USA,UK,,Christopher Nolan,,,Christopher Nolan,,"18 July 2008 (USA)
+",The Dark Knight,4,9,"Action,Crime,Drama",2008
+USA,USA,,,Sidney Lumet,,,Sidney Lumet,,"10 April 1957 (USA)
+",12 Angry Men,5,8.9,"Crime,Drama",1957
+USA,USA,,,Steven Spielberg,,,Steven Spielberg,,"4 February 1994 (USA)
+",Schindler's List,6,8.9,"Biography,Drama,History",1993
+"New Zealand,USA",New Zealand,USA,,Peter Jackson,,,Peter Jackson,,"17 December 2003 (USA)
+",The Lord of the Rings: The Return of the King,7,8.9,"Action,Adventure,Drama",2003
+USA,USA,,,Quentin Tarantino,,,Quentin Tarantino,,"14 October 1994 (USA)
+",Pulp Fiction,8,8.8,"Crime,Drama",1994
+"Italy,Spain,West Germany",Italy,Spain,West Germany,Sergio Leone,,,Sergio Leone,,"29 December 1967 (USA)
+","The Good, the Bad and the Ugly",9,8.8,Western,1966
+"New Zealand,USA",New Zealand,USA,,Peter Jackson,,,Peter Jackson,,"19 December 2001 (USA)
+",The Lord of the Rings: The Fellowship of the Ring,10,8.8,"Action,Adventure,Drama",2001
+"USA,Germany,Italy",USA,Germany,Italy,David Fincher,,,David Fincher,,"15 October 1999 (USA)
+",Fight Club,11,8.8,Drama,1999
+USA,USA,,,Robert Zemeckis,,,Robert Zemeckis,,"6 July 1994 (USA)
+",Forrest Gump,12,8.8,"Drama,Romance",1994
+"USA,UK",USA,UK,,Christopher Nolan,,,Christopher Nolan,,"16 July 2010 (USA)
+",Inception,13,8.7,"Action,Adventure,Sci-Fi",2010
+"New Zealand,USA",New Zealand,USA,,Peter Jackson,,,Peter Jackson,,"18 December 2002 (USA)
+",The Lord of the Rings: The Two Towers,14,8.7,"Action,Adventure,Drama",2002
+USA,USA,,,Irvin Kershner,,,Irvin Kershner,,"20 June 1980 (USA)
+",Star Wars: Episode V - The Empire Strikes Back,15,8.7,"Action,Adventure,Fantasy",1980
+USA,USA,,,"Lana Wachowski,Lilly Wachowski",,,Lana Wachowski,Lilly Wachowski,"31 March 1999 (USA)
+",The Matrix,16,8.6,"Action,Sci-Fi",1999
+USA,USA,,,Martin Scorsese,,,Martin Scorsese,,"21 September 1990 (USA)
+",Goodfellas,17,8.6,"Biography,Crime,Drama",1990
+USA,USA,,,Milos Forman,,,Milos Forman,,"19 November 1975 (USA)
+",One Flew Over the Cuckoo's Nest,18,8.6,Drama,1975
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,"19 November 1956 (USA)
+",Seven Samurai,19,8.6,"Action,Adventure,Drama",1954
+USA,USA,,,David Fincher,,,David Fincher,,"22 September 1995 (USA)
+",Se7en,20,8.6,"Crime,Drama,Mystery",1995
+Italy,Italy,,,Roberto Benigni,,,Roberto Benigni,,"20 December 1997 (Italy)
+",Life Is Beautiful,21,8.6,"Comedy,Drama,Romance",1997
+"Brazil,France,Germany",Brazil,France,Germany,"Fernando Meirelles,Kátia Lund",,,Fernando Meirelles,Kátia Lund,"13 February 2004 (USA)
+",City of God,22,8.6,"Crime,Drama",2002
+USA,USA,,,Jonathan Demme,,,Jonathan Demme,,"14 February 1991 (USA)
+",The Silence of the Lambs,23,8.6,"Crime,Drama,Thriller",1991
+USA,USA,,,Frank Capra,,,Frank Capra,,"7 January 1947 (USA)
+",It's a Wonderful Life,24,8.6,"Drama,Family,Fantasy",1946
+USA,USA,,,George Lucas,,,George Lucas,,"25 May 1977 (USA)
+",Star Wars: Episode IV - A New Hope,25,8.6,"Action,Adventure,Fantasy",1977
+USA,USA,,,Steven Spielberg,,,Steven Spielberg,,"24 July 1998 (USA)
+",Saving Private Ryan,26,8.5,"Drama,War",1998
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,"28 March 2003 (USA)
+",Spirited Away,27,8.5,"Animation,Adventure,Family",2001
+USA,USA,,,Frank Darabont,,,Frank Darabont,,"10 December 1999 (USA)
+",The Green Mile,28,8.5,"Crime,Drama,Fantasy",1999
+"USA,UK,Canada",USA,UK,Canada,Christopher Nolan,,,Christopher Nolan,,"7 November 2014 (USA)
+",Interstellar,29,8.5,"Adventure,Drama,Sci-Fi",2014
+South Korea,South Korea,,,Bong Joon Ho,,,Bong Joon Ho,,"8 November 2019 (USA)
+",Parasite,30,8.5,"Comedy,Drama,Thriller",2019
+"France,USA",France,USA,,Luc Besson,,,Luc Besson,,"18 November 1994 (USA)
+",Léon: The Professional,31,8.5,"Action,Crime,Drama",1994
+"USA,Germany",USA,Germany,,Bryan Singer,,,Bryan Singer,,"16 August 1995 (USA)
+",The Usual Suspects,32,8.5,"Crime,Mystery,Thriller",1995
+Japan,Japan,,,Masaki Kobayashi,,,Masaki Kobayashi,,"4 August 1964 (USA)
+",Hara-Kiri,33,8.5,"Action,Drama,Mystery",1962
+USA,USA,,,"Roger Allers,Rob Minkoff",,,Roger Allers,Rob Minkoff,"24 June 1994 (USA)
+",The Lion King,34,8.5,"Animation,Adventure,Drama",1994
+"UK,France,Poland,Germany,USA",UK,France,"Poland,Germany,USA",Roman Polanski,,,Roman Polanski,,"28 March 2003 (USA)
+",The Pianist,35,8.5,"Biography,Drama,Music",2002
+USA,USA,,,Robert Zemeckis,,,Robert Zemeckis,,"3 July 1985 (USA)
+",Back to the Future,36,8.5,"Adventure,Comedy,Sci-Fi",1985
+"USA,France",USA,France,,James Cameron,,,James Cameron,,"3 July 1991 (USA)
+",Terminator 2: Judgment Day,37,8.5,"Action,Sci-Fi",1991
+USA,USA,,,Tony Kaye,,,Tony Kaye,,"20 November 1998 (USA)
+",American History X,38,8.5,Drama,1998
+USA,USA,,,Charles Chaplin,,,Charles Chaplin,,"25 February 1936 (USA)
+",Modern Times,39,8.5,"Comedy,Drama,Family",1936
+USA,USA,,,Alfred Hitchcock,,,Alfred Hitchcock,,"8 September 1960 (USA)
+",Psycho,40,8.5,"Horror,Mystery,Thriller",1960
+"USA,UK,Malta,Morocco",USA,UK,"Malta,Morocco",Ridley Scott,,,Ridley Scott,,"5 May 2000 (USA)
+",Gladiator,41,8.5,"Action,Adventure,Drama",2000
+USA,USA,,,Charles Chaplin,,,Charles Chaplin,,"7 March 1931 (USA)
+",City Lights,42,8.5,"Comedy,Drama,Romance",1931
+"USA,Hong Kong",USA,Hong Kong,,Martin Scorsese,,,Martin Scorsese,,"6 October 2006 (USA)
+",The Departed,43,8.5,"Crime,Drama,Thriller",2006
+France,France,,,"Olivier Nakache,éric Toledano",,,Olivier Nakache,éric Toledano,"2 November 2011 (France)
+",The Intouchables,44,8.5,"Biography,Comedy,Drama",2011
+USA,USA,,,Damien Chazelle,,,Damien Chazelle,,"15 October 2014 (Philippines)
+",Whiplash,45,8.5,"Drama,Music",2014
+"UK,USA",UK,USA,,Christopher Nolan,,,Christopher Nolan,,"20 October 2006 (USA)
+",The Prestige,46,8.5,"Drama,Mystery,Sci-Fi",2006
+Japan,Japan,,,Isao Takahata,,,Isao Takahata,,"26 July 1989 (USA)
+",Grave of the Fireflies,47,8.5,"Animation,Drama,War",1988
+"Italy,USA",Italy,USA,,Sergio Leone,,,Sergio Leone,,"4 July 1969 (USA)
+",Once Upon a Time in the West,48,8.4,Western,1968
+USA,USA,,,Thomas Kail,,,Thomas Kail,,"3 July 2020 (USA)
+",Hamilton,49,8.4,"Biography,Drama,History",2020
+USA,USA,,,Michael Curtiz,,,Michael Curtiz,,"23 January 1943 (USA)
+",Casablanca,50,8.4,"Drama,Romance,War",1942
+"Italy,France",Italy,France,,Giuseppe Tornatore,,,Giuseppe Tornatore,,"23 February 1990 (USA)
+",Cinema Paradiso,51,8.4,Drama,1988
+USA,USA,,,Alfred Hitchcock,,,Alfred Hitchcock,,"September 1954 (USA)
+",Rear Window,52,8.4,"Mystery,Thriller",1954
+"UK,USA",UK,USA,,Ridley Scott,,,Ridley Scott,,"22 June 1979 (USA)
+",Alien,53,8.4,"Horror,Sci-Fi",1979
+USA,USA,,,Francis Ford Coppola,,,Francis Ford Coppola,,"15 August 1979 (USA)
+",Apocalypse Now,54,8.4,"Drama,Mystery,War",1979
+USA,USA,,,Christopher Nolan,,,Christopher Nolan,,"25 May 2001 (USA)
+",Memento,55,8.4,"Mystery,Thriller",2000
+USA,USA,,,Charles Chaplin,,,Charles Chaplin,,"7 March 1941 (USA)
+",The Great Dictator,56,8.4,"Comedy,Drama,War",1940
+USA,USA,,,Steven Spielberg,,,Steven Spielberg,,"12 June 1981 (USA)
+",Raiders of the Lost Ark,57,8.4,"Action,Adventure",1981
+USA,USA,,,Quentin Tarantino,,,Quentin Tarantino,,"25 December 2012 (USA)
+",Django Unchained,58,8.4,"Drama,Western",2012
+"Germany,France",Germany,France,,Florian Henckel von Donnersmarck,,,Florian Henckel von Donnersmarck,,"30 March 2007 (USA)
+",The Lives of Others,59,8.4,"Drama,Mystery,Thriller",2006
+"USA,Canada",USA,Canada,,Todd Phillips,,,Todd Phillips,,"4 October 2019 (USA)
+",Joker,60,8.4,"Crime,Drama,Thriller",2019
+USA,USA,,,Stanley Kubrick,,,Stanley Kubrick,,"25 December 1957 (USA)
+",Paths of Glory,61,8.4,"Drama,War",1957
+USA,USA,,,Andrew Stanton,,,Andrew Stanton,,"27 June 2008 (USA)
+",WALL·E,62,8.4,"Animation,Adventure,Family",2008
+"UK,USA",UK,USA,,Stanley Kubrick,,,Stanley Kubrick,,"13 June 1980 (USA)
+",The Shining,63,8.4,"Drama,Horror",1980
+USA,USA,,,"Anthony Russo,Joe Russo",,,Anthony Russo,Joe Russo,"27 April 2018 (USA)
+",Avengers: Infinity War,64,8.4,"Action,Adventure,Sci-Fi",2018
+USA,USA,,,Billy Wilder,,,Billy Wilder,,"29 September 1950 (Australia)
+",Sunset Blvd.,65,8.4,"Drama,Film-Noir",1950
+USA,USA,,,Billy Wilder,,,Billy Wilder,,"6 February 1958 (USA)
+",Witness for the Prosecution,66,8.4,"Crime,Drama,Mystery",1957
+South Korea,South Korea,,,Chan-wook Park,,,Chan-wook Park,,"21 November 2003 (South Korea)
+",Oldboy,67,8.4,"Action,Drama,Mystery",2003
+USA,USA,,,"Bob Persichetti,Peter Ramsey,1 more credit",,,Bob Persichetti,Peter Ramsey,"14 December 2018 (USA)
+",Spider-Man: Into the Spider-Verse,68,8.4,"Animation,Action,Adventure",2018
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,"19 December 1997 (USA)
+",Princess Mononoke,69,8.4,"Animation,Adventure,Fantasy",1997
+"UK,USA",UK,USA,,Stanley Kubrick,,,Stanley Kubrick,,"29 January 1964 (USA)
+",Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,70,8.3,Comedy,1964
+"UK,USA",UK,USA,,Christopher Nolan,,,Christopher Nolan,,"20 July 2012 (USA)
+",The Dark Knight Rises,71,8.3,"Action,Adventure",2012
+"USA,Italy",USA,Italy,,Sergio Leone,,,Sergio Leone,,"1 June 1984 (USA)
+",Once Upon a Time in America,72,8.3,"Crime,Drama",1984
+USA,USA,,,James Cameron,,,James Cameron,,"18 July 1986 (USA)
+",Aliens,73,8.3,"Action,Adventure,Sci-Fi",1986
+Japan,Japan,,,Makoto Shinkai,,,Makoto Shinkai,,"7 April 2017 (USA)
+",Your Name.,74,8.3,"Animation,Drama,Fantasy",2016
+USA,USA,,,"Anthony Russo,Joe Russo",,,Anthony Russo,Joe Russo,"26 April 2019 (USA)
+",Avengers: Endgame,75,8.3,"Action,Adventure,Drama",2019
+USA,USA,,,"Lee Unkrich,Adrian Molina",,,Lee Unkrich,Adrian Molina,"22 November 2017 (USA)
+",Coco,76,8.3,"Animation,Adventure,Family",2017
+USA,USA,,,Sam Mendes,,,Sam Mendes,,"1 October 1999 (USA)
+",American Beauty,77,8.3,Drama,1999
+USA,USA,,,Mel Gibson,,,Mel Gibson,,"24 May 1995 (USA)
+",Braveheart,78,8.3,"Biography,Drama,History",1995
+India,India,,,Rajkumar Hirani,,,Rajkumar Hirani,,"8 December 2011 (China)
+",3 Idiots,79,8.3,"Comedy,Drama",2009
+West Germany,West Germany,,,Wolfgang Petersen,,,Wolfgang Petersen,,"10 February 1982 (USA)
+",Das Boot,80,8.3,"Adventure,Drama,Thriller",1981
+"USA,Singapore,Philippines,India,China",USA,Singapore,"Philippines,India,China",John Lasseter,,,John Lasseter,,"22 November 1995 (USA)
+",Toy Story,81,8.3,"Animation,Adventure,Comedy",1995
+"Lebanon,USA,France,Cyprus,Qatar,UK",Lebanon,USA,"France,Cyprus,Qatar,UK",Nadine Labaki,,,Nadine Labaki,,"29 April 2019 (China)
+",Capernaum,82,8.3,Drama,2018
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,"26 November 1963 (USA)
+",High and Low,83,8.3,"Crime,Drama,Mystery",1963
+"USA,France,Czechoslovakia,Italy",USA,France,"Czechoslovakia,Italy",Milos Forman,,,Milos Forman,,"19 September 1984 (USA)
+",Amadeus,84,8.3,"Biography,Drama,History",1984
+"USA,Germany",USA,Germany,,Quentin Tarantino,,,Quentin Tarantino,,"21 August 2009 (USA)
+",Inglourious Basterds,85,8.3,"Adventure,Drama,War",2009
+USA,USA,,,Richard Marquand,,,Richard Marquand,,"25 May 1983 (USA)
+",Star Wars: Episode VI - Return of the Jedi,86,8.3,"Action,Adventure,Fantasy",1983
+India,India,,,"Aamir Khan,Amole Gupte",,,Aamir Khan,Amole Gupte,"21 December 2007 (India)
+",Like Stars on Earth,87,8.3,"Drama,Family",2007
+USA,USA,,,Gus Van Sant,,,Gus Van Sant,,"9 January 1998 (USA)
+",Good Will Hunting,88,8.3,"Drama,Romance",1997
+USA,USA,,,Quentin Tarantino,,,Quentin Tarantino,,"2 September 1992 (France)
+",Reservoir Dogs,89,8.3,"Crime,Drama,Thriller",1992
+"UK,USA",UK,USA,,Stanley Kubrick,,,Stanley Kubrick,,"12 May 1968 (UK)
+",2001: A Space Odyssey,90,8.3,"Adventure,Sci-Fi",1968
+USA,USA,,,Darren Aronofsky,,,Darren Aronofsky,,"15 December 2000 (USA)
+",Requiem for a Dream,91,8.3,Drama,2000
+USA,USA,,,Alfred Hitchcock,,,Alfred Hitchcock,,"22 May 1958 (UK)
+",Vertigo,92,8.3,"Mystery,Romance,Thriller",1958
+Germany,Germany,,,Fritz Lang,,,Fritz Lang,,"31 August 1931 (Sweden)
+",M,93,8.3,"Crime,Mystery,Thriller",1931
+USA,USA,,,Michel Gondry,,,Michel Gondry,,"19 March 2004 (USA)
+",Eternal Sunshine of the Spotless Mind,94,8.3,"Drama,Romance,Sci-Fi",2004
+"Denmark,Sweden",Denmark,Sweden,,Thomas Vinterberg,,,Thomas Vinterberg,,"10 January 2013 (Denmark)
+",The Hunt,95,8.3,Drama,2012
+USA,USA,,,Orson Welles,,,Orson Welles,,"5 September 1941 (USA)
+",Citizen Kane,96,8.3,"Drama,Mystery",1941
+India,India,,,Nitesh Tiwari,,,Nitesh Tiwari,,"21 December 2016 (USA)
+",Dangal,97,8.3,"Action,Biography,Drama",2016
+"UK,USA",UK,USA,,Stanley Kubrick,,,Stanley Kubrick,,"10 July 1987 (USA)
+",Full Metal Jacket,98,8.2,"Drama,War",1987
+Italy,Italy,,,Vittorio De Sica,,,Vittorio De Sica,,"13 December 1949 (USA)
+",Bicycle Thieves,99,8.2,Drama,1948
+"USA,UK,India,Spain,Canada,China",USA,UK,"India,Spain,Canada,China",Sam Mendes,,,Sam Mendes,,"10 January 2020 (USA)
+",1917,100,8.2,"Drama,War",2019
+USA,USA,,,"Stanley Donen,Gene Kelly",,,Stanley Donen,Gene Kelly,"11 April 1952 (USA)
+",Singin' in the Rain,101,8.2,"Comedy,Musical,Romance",1952
+USA,USA,,,Charles Chaplin,,,Charles Chaplin,,"6 February 1921 (USA)
+",The Kid,102,8.2,"Comedy,Drama,Family",1921
+USA,USA,,,Alfred Hitchcock,,,Alfred Hitchcock,,"18 December 1959 (USA)
+",North by Northwest,103,8.2,"Adventure,Mystery,Thriller",1959
+"UK,USA",UK,USA,,Stanley Kubrick,,,Stanley Kubrick,,"2 February 1972 (USA)
+",A Clockwork Orange,104,8.2,"Crime,Drama,Sci-Fi",1971
+"UK,USA",UK,USA,,Guy Ritchie,,,Guy Ritchie,,"19 January 2001 (USA)
+",Snatch,105,8.2,"Comedy,Crime",2000
+USA,USA,,,Brian De Palma,,,Brian De Palma,,"9 December 1983 (USA)
+",Scarface,106,8.2,"Crime,Drama",1983
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,"25 March 1956 (USA)
+",Ikiru,107,8.2,Drama,1952
+USA,USA,,,Martin Scorsese,,,Martin Scorsese,,"9 February 1976 (USA)
+",Taxi Driver,108,8.2,"Crime,Drama",1976
+UK,UK,,,David Lean,,,David Lean,,"11 December 1962 (UK)
+",Lawrence of Arabia,109,8.2,"Adventure,Biography,Drama",1962
+USA,USA,,,Lee Unkrich,,,Lee Unkrich,,"18 June 2010 (USA)
+",Toy Story 3,110,8.2,"Animation,Adventure,Comedy",2010
+"France,Germany",France,Germany,,Jean-Pierre Jeunet,,,Jean-Pierre Jeunet,,"8 February 2002 (USA)
+",Amélie,111,8.2,"Comedy,Romance",2001
+Soviet Union,Soviet Union,,,Elem Klimov,,,Elem Klimov,,"17 October 1985 (Hungary)
+",Come and See,112,8.2,"Drama,Thriller,War",1985
+USA,USA,,,George Roy Hill,,,George Roy Hill,,"25 December 1973 (USA)
+",The Sting,113,8.2,"Comedy,Crime,Drama",1973
+"Iran,France,Australia",Iran,France,Australia,Asghar Farhadi,,,Asghar Farhadi,,"13 November 2012 (China)
+",A Separation,114,8.2,Drama,2011
+Germany,Germany,,,Fritz Lang,,,Fritz Lang,,"13 March 1927 (USA)
+",Metropolis,115,8.2,"Drama,Sci-Fi",1927
+"Canada,France",Canada,France,,Denis Villeneuve,,,Denis Villeneuve,,"12 January 2011 (France)
+",Incendies,116,8.2,"Drama,Mystery,War",2010
+"Italy,Spain,West Germany",Italy,Spain,West Germany,Sergio Leone,,,Sergio Leone,,"10 May 1967 (USA)
+",For a Few Dollars More,117,8.2,Western,1965
+USA,USA,,,Billy Wilder,,,Billy Wilder,,"29 June 1960 (Canada)
+",The Apartment,118,8.2,"Comedy,Drama,Romance",1960
+USA,USA,,,Billy Wilder,,,Billy Wilder,,"6 July 1944 (USA)
+",Double Indemnity,119,8.2,"Crime,Drama,Film-Noir",1944
+USA,USA,,,Robert Mulligan,,,Robert Mulligan,,"16 March 1963 (USA)
+",To Kill a Mockingbird,120,8.2,"Crime,Drama",1962
+USA,USA,,,"Pete Docter,Bob Peterson",,,Pete Docter,Bob Peterson,"29 May 2009 (USA)
+",Up,121,8.2,"Animation,Adventure,Comedy",2009
+USA,USA,,,Steven Spielberg,,,Steven Spielberg,,"24 May 1989 (USA)
+",Indiana Jones and the Last Crusade,122,8.2,"Action,Adventure",1989
+USA,USA,,,Michael Mann,,,Michael Mann,,"15 December 1995 (USA)
+",Heat,123,8.2,"Crime,Drama,Thriller",1995
+USA,USA,,,Curtis Hanson,,,Curtis Hanson,,"19 September 1997 (USA)
+",L.A. Confidential,124,8.2,"Crime,Drama,Mystery",1997
+USA,USA,,,John McTiernan,,,John McTiernan,,"20 July 1988 (USA)
+",Die Hard,125,8.2,"Action,Thriller",1988
+UK,UK,,,"Terry Gilliam,Terry Jones",,,Terry Gilliam,Terry Jones,"25 May 1975 (UK)
+",Monty Python and the Holy Grail,126,8.2,"Adventure,Comedy,Fantasy",1975
+"USA,China",USA,China,,Peter Farrelly,,,Peter Farrelly,,"16 November 2018 (USA)
+",Green Book,127,8.2,"Biography,Comedy,Drama",2018
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,"26 December 1951 (USA)
+",Rashomon,128,8.2,"Crime,Drama,Mystery",1950
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,"13 September 1961 (USA)
+",Yojimbo,129,8.2,"Action,Drama,Thriller",1961
+"USA,UK",USA,UK,,Christopher Nolan,,,Christopher Nolan,,"15 June 2005 (USA)
+",Batman Begins,130,8.2,"Action,Adventure",2005
+"Germany,Austria,Italy",Germany,Austria,Italy,Oliver Hirschbiegel,,,Oliver Hirschbiegel,,"8 April 2005 (USA)
+",Downfall,131,8.2,"Biography,Drama,History",2004
+Iran,Iran,,,Majid Majidi,,,Majid Majidi,,"22 January 1999 (USA)
+",Children of Heaven,132,8.2,"Drama,Family,Sport",1997
+USA,USA,,,Clint Eastwood,,,,,7 August 1992 (USA),Unforgiven,133,8.2,"Drama,Western",1992
+USA,USA,,,Billy Wilder,,,Billy Wilder,,"19 March 1959 (USA)
+",Some Like It Hot,134,8.2,"Comedy,Music,Romance",1959
+"Japan,France",Japan,France,,Akira Kurosawa,,,Akira Kurosawa,,"1 June 1985 (Japan)
+",Ran,135,8.2,"Action,Drama,War",1985
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,"17 June 2005 (USA)
+",Howl's Moving Castle,136,8.2,"Animation,Adventure,Family",2004
+USA,USA,,,Joseph L. Mankiewicz,,,Joseph L. Mankiewicz,,"27 October 1950 (USA)
+",All About Eve,137,8.2,Drama,1950
+USA,USA,,,Ron Howard,,,Ron Howard,,"4 January 2002 (USA)
+",A Beautiful Mind,138,8.2,"Biography,Drama",2001
+"USA,France",USA,France,,Martin Scorsese,,,Martin Scorsese,,"22 November 1995 (USA)
+",Casino,139,8.2,"Crime,Drama",1995
+USA,USA,,,John Sturges,,,John Sturges,,"4 July 1963 (USA)
+",The Great Escape,140,8.2,"Adventure,Drama,History",1963
+USA,USA,,,Martin Scorsese,,,Martin Scorsese,,"25 December 2013 (USA)
+",The Wolf of Wall Street,141,8.2,"Biography,Crime,Drama",2013
+"Mexico,Spain",Mexico,Spain,,Guillermo del Toro,,,Guillermo del Toro,,"19 January 2007 (USA)
+",Pan's Labyrinth,142,8.2,"Drama,Fantasy,War",2006
+"Argentina,Spain",Argentina,Spain,,Juan José Campanella,,,Juan José Campanella,,"21 May 2010 (USA)
+",The Secret in Their Eyes,143,8.1,"Drama,Mystery,Romance",2009
+UK,UK,,,Guy Ritchie,,,Guy Ritchie,,"28 August 1998 (UK)
+","Lock, Stock and Two Smoking Barrels",144,8.1,"Action,Comedy,Crime",1998
+USA,USA,,,Paul Thomas Anderson,,,Paul Thomas Anderson,,"25 January 2008 (USA)
+",There Will Be Blood,145,8.1,Drama,2007
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,"13 July 1990 (USA)
+",My Neighbor Totoro,146,8.1,"Animation,Family,Fantasy",1988
+USA,USA,,,Martin Scorsese,,,Martin Scorsese,,"19 December 1980 (USA)
+",Raging Bull,147,8.1,"Biography,Drama,Sport",1980
+USA,USA,,,Stanley Kramer,,,Stanley Kramer,,"18 December 1961 (Sweden)
+",Judgment at Nuremberg,148,8.1,"Drama,War",1961
+"USA,Mexico",USA,Mexico,,John Huston,,,John Huston,,"24 January 1948 (USA)
+",The Treasure of the Sierra Madre,149,8.1,"Adventure,Drama,Western",1948
+USA,USA,,,Alfred Hitchcock,,,Alfred Hitchcock,,"29 May 1954 (USA)
+",Dial M for Murder,150,8.1,"Crime,Thriller",1954
+"UK,USA",UK,USA,,Martin McDonagh,,,Martin McDonagh,,"1 December 2017 (USA)
+","Three Billboards Outside Ebbing, Missouri",151,8.1,"Comedy,Crime,Drama",2017
+USA,USA,,,Charles Chaplin,,,Charles Chaplin,,"13 July 1925 (Brazil)
+",The Gold Rush,152,8.1,"Adventure,Comedy,Drama",1925
+USA,USA,,,Roman Polanski,,,Roman Polanski,,"20 June 1974 (USA)
+",Chinatown,153,8.1,"Drama,Mystery,Thriller",1974
+USA,USA,,,Martin Scorsese,,,Martin Scorsese,,"19 February 2010 (USA)
+",Shutter Island,154,8.1,"Mystery,Thriller",2010
+Turkey,Turkey,,,?agan Irmak,,,?agan Irmak,,"18 November 2005 (Turkey)
+",My Father and My Son,155,8.1,"Drama,Family",2005
+"USA,Mexico",USA,Mexico,,"Ethan Coen,Joel Coen",,,Ethan Coen,Joel Coen,"21 November 2007 (USA)
+",No Country for Old Men,156,8.1,"Crime,Drama,Thriller",2007
+"USA,UK,Germany",USA,UK,Germany,James McTeigue,,,James McTeigue,,"17 March 2006 (USA)
+",V for Vendetta,157,8.1,"Action,Drama,Sci-Fi",2005
+India,India,,,Hrishikesh Mukherjee,,,Hrishikesh Mukherjee,,"12 March 1971 (India)
+",Anand,158,8.1,"Drama,Musical",1971
+Sweden,Sweden,,,Ingmar Bergman,,,Ingmar Bergman,,"13 October 1958 (USA)
+",The Seventh Seal,159,8.1,"Drama,Fantasy",1957
+USA,USA,,,"Pete Docter,Ronnie Del Carmen",,,Pete Docter,Ronnie Del Carmen,"19 June 2015 (USA)
+",Inside Out,160,8.1,"Animation,Adventure,Comedy",2015
+USA,USA,,,Gavin O'Connor,,,Gavin O'Connor,,"9 September 2011 (USA)
+",Warrior,161,8.1,"Action,Drama,Sport",2011
+"USA,UK",USA,UK,,David Lynch,,,David Lynch,,"10 October 1980 (USA)
+",The Elephant Man,162,8.1,"Biography,Drama",1980
+USA,USA,,,John Carpenter,,,John Carpenter,,"25 June 1982 (USA)
+",The Thing,163,8.1,"Horror,Mystery,Sci-Fi",1982
+USA,USA,,,M. Night Shyamalan,,,M. Night Shyamalan,,"6 August 1999 (USA)
+",The Sixth Sense,164,8.1,"Drama,Mystery,Thriller",1999
+UK,UK,,,Danny Boyle,,,Danny Boyle,,"9 August 1996 (USA)
+",Trainspotting,165,8.1,Drama,1996
+USA,USA,,,Steven Spielberg,,,Steven Spielberg,,"11 June 1993 (USA)
+",Jurassic Park,166,8.1,"Action,Adventure,Sci-Fi",1993
+USA,USA,,,Peter Weir,,,Peter Weir,,"5 June 1998 (USA)
+",The Truman Show,167,8.1,"Comedy,Drama,Sci-Fi",1998
+USA,USA,,,"Victor Fleming,George Cukor,1 more credit",,,Victor Fleming,George Cukor,"17 January 1940 (USA)
+",Gone with the Wind,168,8.1,"Drama,History,Romance",1939
+"USA,Australia",USA,Australia,,"Andrew Stanton,Lee Unkrich",,,Andrew Stanton,Lee Unkrich,"30 May 2003 (USA)
+",Finding Nemo,169,8.1,"Animation,Adventure,Comedy",2003
+Sweden,Sweden,,,Ingmar Bergman,,,Ingmar Bergman,,"22 June 1959 (USA)
+",Wild Strawberries,170,8.1,"Drama,Romance",1957
+USA,USA,,,Ridley Scott,,,Ridley Scott,,"25 June 1982 (USA)
+",Blade Runner,171,8.1,"Action,Sci-Fi,Thriller",1982
+Soviet Union,Soviet Union,,,Andrei Tarkovsky,,,Andrei Tarkovsky,,"17 April 1980 (Netherlands)
+",Stalker,172,8.1,"Drama,Sci-Fi",1979
+"USA,Japan",USA,Japan,,Quentin Tarantino,,,Quentin Tarantino,,"10 October 2003 (USA)
+",Kill Bill: Vol. 1,173,8.1,"Action,Crime,Thriller",2003
+"UK,USA",UK,USA,,David Lean,,,David Lean,,"14 December 1957 (USA)
+",The Bridge on the River Kwai,174,8.1,"Adventure,Drama,War",1957
+South Korea,South Korea,,,Bong Joon Ho,,,Bong Joon Ho,,"2 May 2003 (South Korea)
+",Memories of Murder,175,8.1,"Action,Crime,Drama",2003
+"USA,UK",USA,UK,,"Joel Coen,Ethan Coen",,,Joel Coen,Ethan Coen,"5 April 1996 (USA)
+",Fargo,176,8.1,"Crime,Drama,Thriller",1996
+"Canada,Ireland,UK,USA",Canada,Ireland,"UK,USA",Lenny Abrahamson,,,Lenny Abrahamson,,"22 January 2016 (USA)
+",Room,177,8.1,"Drama,Thriller",2015
+"Spain,UK",Spain,UK,,"Sergio Pablos,Carlos Martínez López",,,Sergio Pablos,Carlos Martínez López,"15 November 2019 (USA)
+",Klaus,178,8.1,"Animation,Adventure,Comedy",2019
+"Germany,USA",Germany,USA,,Clint Eastwood,,,Clint Eastwood,,"9 January 2009 (USA)
+",Gran Torino,179,8.1,Drama,2008
+UK,UK,,,Carol Reed,,,Carol Reed,,"12 October 1949 (France)
+",The Third Man,180,8.1,"Film-Noir,Mystery,Thriller",1949
+Japan,Japan,,,Yasujir? Ozu,,,Yasujir? Ozu,,"13 March 1972 (USA)
+",Tokyo Story,181,8.1,Drama,1953
+USA,USA,,,Elia Kazan,,,Elia Kazan,,"22 June 1954 (Japan)
+",On the Waterfront,182,8.1,"Crime,Drama,Thriller",1954
+"Argentina,Spain,France,UK",Argentina,Spain,"France,UK",Damián Szifron,,,Damián Szifron,,"21 August 2014 (Argentina)
+",Wild Tales,183,8.1,"Comedy,Drama,Thriller",2014
+USA,USA,,,Michael Cimino,,,Michael Cimino,,"23 February 1979 (USA)
+",The Deer Hunter,184,8.1,"Drama,War",1978
+"Sweden,France,West Germany,UK,Norway",Sweden,France,"West Germany,UK,Norway",Ingmar Bergman,,,Ingmar Bergman,,"18 October 1978 (USA)
+",Autumn Sonata,185,8.1,"Drama,Music",1978
+"Ireland,UK",Ireland,UK,,Jim Sheridan,,,Jim Sheridan,,"25 February 1994 (USA)
+",In the Name of the Father,186,8.1,"Biography,Crime,Drama",1993
+Australia,Australia,,,Adam Elliot,,,Adam Elliot,,"9 April 2009 (Australia)
+",Mary and Max,187,8.1,"Animation,Comedy,Drama",2009
+USA,USA,,,David Fincher,,,David Fincher,,"3 October 2014 (USA)
+",Gone Girl,188,8.1,"Drama,Mystery,Thriller",2014
+"Germany,USA",Germany,USA,,Wes Anderson,,,Wes Anderson,,"28 March 2014 (USA)
+",The Grand Budapest Hotel,189,8.1,"Adventure,Comedy,Crime",2014
+"Australia,USA",Australia,USA,,Mel Gibson,,,Mel Gibson,,"4 November 2016 (USA)
+",Hacksaw Ridge,190,8.1,"Biography,Drama,History",2016
+"USA,Austria,Switzerland",USA,Austria,Switzerland,Richard Linklater,,,Richard Linklater,,"27 January 1995 (USA)
+",Before Sunrise,191,8.1,"Drama,Romance",1995
+"USA,Canada",USA,Canada,,Steven Spielberg,,,Steven Spielberg,,"25 December 2002 (USA)
+",Catch Me If You Can,192,8.1,"Biography,Crime,Drama",2002
+India,India,,,Sriram Raghavan,,,Sriram Raghavan,,"5 October 2018 (USA)
+",Andhadhun,193,8.1,"Crime,Drama,Music",2018
+Sweden,Sweden,,,Ingmar Bergman,,,Ingmar Bergman,,"16 March 1967 (USA)
+",Persona,194,8.1,"Drama,Thriller",1966
+"USA,UK",USA,UK,,"Joel Coen,Ethan Coen",,,Joel Coen,Ethan Coen,"6 March 1998 (USA)
+",The Big Lebowski,195,8.1,"Comedy,Crime,Sport",1998
+USA,USA,,,Denis Villeneuve,,,Denis Villeneuve,,"20 September 2013 (USA)
+",Prisoners,196,8.1,"Crime,Drama,Mystery",2013
+USA,USA,,,Buster Keaton,,,Buster Keaton,,"11 May 1924 (USA)
+",Sherlock Jr.,197,8.1,"Action,Comedy,Romance",1924
+USA,USA,,,Ernst Lubitsch,,,Ernst Lubitsch,,"6 March 1942 (USA)
+",To Be or Not to Be,198,8.1,"Comedy,War",1942
+USA,USA,,,"Clyde Bruckman,Buster Keaton",,,Clyde Bruckman,Buster Keaton,"2 January 1927 (USA)
+",The General,199,8.1,"Action,Adventure,Comedy",1926
+USA,USA,,,"Dean DeBlois,Chris Sanders",,,Dean DeBlois,Chris Sanders,"26 March 2010 (USA)
+",How to Train Your Dragon,200,8.1,"Animation,Action,Adventure",2010
+"Turkey,France,Bulgaria",Turkey,France,Bulgaria,Yavuz Turgul,,,Yavuz Turgul,,"29 November 1996 (Turkey)
+",The Bandit,201,8.1,"Crime,Drama,Thriller",1996
+USA,USA,,,James Mangold,,,James Mangold,,"15 November 2019 (USA)
+",Ford v Ferrari,202,8.1,"Action,Biography,Drama",2019
+"USA,UK",USA,UK,,Steve McQueen,,,Steve McQueen,,"8 November 2013 (USA)
+",12 Years a Slave,203,8.1,"Biography,Drama,History",2013
+"UK,USA",UK,USA,,Stanley Kubrick,,,Stanley Kubrick,,"18 December 1975 (USA)
+",Barry Lyndon,204,8.1,"Adventure,Drama,History",1975
+USA,USA,,,Frank Capra,,,Frank Capra,,"19 October 1939 (USA)
+",Mr. Smith Goes to Washington,205,8.1,"Comedy,Drama",1939
+"UK,Italy,Yugoslavia",UK,Italy,Yugoslavia,Emir Kusturica,,,Emir Kusturica,,"9 February 1990 (USA)
+",Time of the Gypsies,206,8.1,"Comedy,Crime,Drama",1988
+"Australia,South Africa,USA",Australia,South Africa,USA,George Miller,,,George Miller,,"15 May 2015 (USA)
+",Mad Max: Fury Road,207,8.1,"Action,Adventure,Sci-Fi",2015
+USA,USA,,,Clint Eastwood,,,Clint Eastwood,,"28 January 2005 (USA)
+",Million Dollar Baby,208,8.1,"Drama,Sport",2004
+USA,USA,,,Sidney Lumet,,,Sidney Lumet,,"27 November 1976 (USA)
+",Network,209,8.1,Drama,1976
+USA,USA,,,Rob Reiner,,,Rob Reiner,,"22 August 1986 (USA)
+",Stand by Me,210,8.1,"Adventure,Drama",1986
+USA,USA,,,Peter Weir,,,Peter Weir,,"9 June 1989 (USA)
+",Dead Poets Society,211,8.1,"Comedy,Drama",1989
+USA,USA,,,Stuart Rosenberg,,,Stuart Rosenberg,,"1 November 1967 (USA)
+",Cool Hand Luke,212,8.1,"Crime,Drama",1967
+USA,USA,,,William Wyler,,,William Wyler,,"18 November 1959 (Canada)
+",Ben-Hur,213,8.1,"Adventure,Drama,History",1959
+"UK,USA",UK,USA,,David Yates,,,David Yates,,"15 July 2011 (USA)
+",Harry Potter and the Deathly Hallows: Part 2,214,8.1,"Adventure,Drama,Fantasy",2011
+"UK,USA",UK,USA,,Lasse Hallstr?m,,,Lasse Hallstr?m,,"12 March 2010 (UK)
+",Hachi: A Dog's Tale,215,8.1,"Biography,Drama,Family",2009
+"USA,UK",USA,UK,,Oliver Stone,,,Oliver Stone,,"6 February 1987 (USA)
+",Platoon,216,8.1,"Drama,War",1986
+USA,USA,,,Sean Penn,,,Sean Penn,,"19 October 2007 (USA)
+",Into the Wild,217,8.1,"Adventure,Biography,Drama",2007
+USA,USA,,,James Mangold,,,James Mangold,,"3 March 2017 (USA)
+",Logan,218,8.1,"Action,Drama,Sci-Fi",2017
+South Korea,South Korea,,,Chan-wook Park,,,Chan-wook Park,,"1 June 2016 (South Korea)
+",The Handmaiden,219,8,"Drama,Romance,Thriller",2016
+"UK,Germany,USA",UK,Germany,USA,Ron Howard,,,Ron Howard,,"27 September 2013 (USA)
+",Rush,220,8,"Action,Biography,Drama",2013
+"France,Italy",France,Italy,,Henri-Georges Clouzot,,,Henri-Georges Clouzot,,"16 February 1955 (USA)
+",The Wages of Fear,221,8,"Adventure,Drama,Thriller",1953
+UK,UK,,,Terry Jones,,,Terry Jones,,"17 August 1979 (USA)
+",Monty Python's Life of Brian,222,8,Comedy,1979
+India,India,,,"Gayatri,Pushkar",,,Gayatri,Pushkar,"21 July 2017 (USA)
+",Vikram Vedha,223,8,"Action,Crime,Drama",2017
+France,France,,,Fran?ois Truffaut,,,Fran?ois Truffaut,,"16 November 1959 (USA)
+",The 400 Blows,224,8,"Crime,Drama",1959
+USA,USA,,,Tom McCarthy,,,Tom McCarthy,,"20 November 2015 (USA)
+",Spotlight,225,8,"Biography,Crime,Drama",2015
+France,France,,,Carl Theodor Dreyer,,,Carl Theodor Dreyer,,"25 October 1928 (France)
+",The Passion of Joan of Arc,226,8,"Biography,Drama,History",1928
+"UK,South Africa,Italy",UK,South Africa,Italy,Terry George,,,Terry George,,"4 February 2005 (USA)
+",Hotel Rwanda,227,8,"Biography,Drama,History",2004
+France,France,,,Mathieu Kassovitz,,,Mathieu Kassovitz,,"23 February 1996 (USA)
+",La Haine,228,8,"Crime,Drama",1995
+Soviet Union,Soviet Union,,,Andrei Tarkovsky,,,Andrei Tarkovsky,,"October 1973 (USA)
+",Andrei Rublev,229,8,"Biography,Drama,History",1966
+Mexico,Mexico,,,Alejandro G. I?árritu,,,Alejandro G. I?árritu,,"13 April 2001 (USA)
+",Amores Perros,230,8,"Drama,Thriller",2000
+USA,USA,,,John G. Avildsen,,,John G. Avildsen,,"3 December 1976 (USA)
+",Rocky,231,8,"Drama,Sport",1976
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,"25 November 1987 (USA)
+",Nausica? of the Valley of the Wind,232,8,"Animation,Adventure,Fantasy",1984
+USA,USA,,,"Pete Docter,David Silverman,1 more credit",,,Pete Docter,David Silverman,"2 November 2001 (USA)
+","Monsters, Inc.",233,8,"Animation,Adventure,Comedy",2001
+India,India,,,Anurag Kashyap,,,Anurag Kashyap,,"22 June 2012 (India)
+",Gangs of Wasseypur,234,8,"Action,Crime,Drama",2012
+France,France,,,Jules Dassin,,,Jules Dassin,,"5 June 1956 (USA)
+",Rififi,235,8,"Crime,Drama,Thriller",1955
+USA,USA,,,Alfred Hitchcock,,,Alfred Hitchcock,,"12 April 1940 (USA)
+",Rebecca,236,8,"Drama,Mystery,Romance",1940
+India,India,,,Rakeysh Omprakash Mehra,,,Rakeysh Omprakash Mehra,,"26 January 2006 (USA)
+",Rang De Basanti,237,8,"Comedy,Crime,Drama",2006
+"USA,France",USA,France,,Richard Linklater,,,Richard Linklater,,"30 July 2004 (USA)
+",Before Sunset,238,8,"Drama,Romance",2004
+"Hong Kong,China",Hong Kong,China,,Kar-Wai Wong,,,Kar-Wai Wong,,"9 March 2001 (USA)
+",In the Mood for Love,239,8,"Drama,Romance",2000
+France,France,,,Céline Sciamma,,,Céline Sciamma,,"14 February 2020 (USA)
+",Portrait of a Lady on Fire,240,8,"Drama,Romance",2019
+"West Germany,France,UK",West Germany,France,UK,Wim Wenders,,,Wim Wenders,,"23 August 1984 (UK)
+","Paris, Texas",241,8,Drama,1984
+USA,USA,,,Frank Capra,,,Frank Capra,,"22 February 1934 (USA)
+",It Happened One Night,242,8,"Comedy,Romance",1934
+Spain,Spain,,,Oriol Paulo,,,Oriol Paulo,,"15 September 2017 (China)
+",The Invisible Guest,243,8,"Crime,Drama,Mystery",2016
+India,India,,,Nishikant Kamat,,,Nishikant Kamat,,"31 July 2015 (USA)
+",Drishyam,244,8,"Crime,Drama,Mystery",2015
+USA,USA,,,Tate Taylor,,,Tate Taylor,,"10 August 2011 (USA)
+",The Help,245,8,Drama,2011
+USA,USA,,,Rob Reiner,,,Rob Reiner,,"9 October 1987 (USA)
+",The Princess Bride,246,8,"Adventure,Family,Fantasy",1987
+"Italy,Algeria",Italy,Algeria,,Gillo Pontecorvo,,,Gillo Pontecorvo,,"20 September 1967 (USA)
+",The Battle of Algiers,247,8,"Drama,War",1966
+"Estonia,Georgia",Estonia,Georgia,,Zaza Urushadze,,,Zaza Urushadze,,"17 April 2015 (USA)
+",Tangerines,248,8,"Drama,War",2013
+"UK,USA",UK,USA,,James Cameron,,,James Cameron,,"26 October 1984 (USA)
+",The Terminator,249,8,"Action,Sci-Fi",1984
+Turkey,Turkey,,,Mehmet Ada ?ztekin,,,Mehmet Ada ?ztekin,,"15 October 2020 (China)
+",7 Kogustaki Mucize,250,8,Drama,2019
