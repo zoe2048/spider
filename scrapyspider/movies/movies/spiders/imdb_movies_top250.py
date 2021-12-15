@@ -2,13 +2,13 @@
 
 from scrapy.spiders import Spider
 from scrapy import Request
-from movies.items import ImdbMovieItem
+from ..items import ImdbMovieItem
 
 
 class ImdbMovieTop250(Spider):
     name = 'imdb_movie_top250'
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
     }
 
     def start_requests(self):
@@ -29,19 +29,11 @@ class ImdbMovieTop250(Spider):
 
     def parse_detail(self, response):
         item = response.meta['item']  # 获取parse()传递的item参数
-        item['tag'] = response.xpath('//div[@class="subtext"]//a[contains(@href,"search")]/text()').extract()
-        item['info'] = response.xpath('//div[@class="subtext"]//a[contains(@href,"release")]/text()').extract()
-        country = response.xpath('//div[@id="titleDetails"]//div[@class="txt-block"]//a[contains(@href,"country")]/text()').extract()
+        tag = response.xpath('//li[@data-testid="storyline-genres"]//a[contains(@href,"genres")]/text()').extract()
+        item['tag'] = ','.join(tag)
+        item['info'] = response.xpath('//li[@data-testid="storyline-taglines"]//li//span/text()').extract()
+        country = response.xpath('//li[@data-testid="title-details-origin"]//a[contains(@href,"country")]/text()').extract()
         item['country'] = ','.join(country)
-        director = response.xpath('//div[@class="credit_summary_item"]//a[contains(@href,"dr")]/text()').extract()
+        director = response.xpath('//section[@data-testid="title-cast"]//a[contains(@href,"dr")]/text()').extract()
         item['director'] = ','.join(director)
         yield item
-
-
-
-
-
-
-
-
-
