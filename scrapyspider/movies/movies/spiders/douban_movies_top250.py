@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
 from scrapy.spiders import Spider
-from movies.items import DoubanMovieItem
+from ..items import DoubanMovieItem
 from scrapy import Request
 
 
 class DoubanMovieTop250(Spider):
     name = 'douban_movie_top250'
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
     }
 
     def start_requests(self):

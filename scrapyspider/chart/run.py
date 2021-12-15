@@ -32,5 +32,3 @@ if __name__ == '__main__':
         result2 = [y for y in data2.items() if y[1] > 2]
         for r2 in sorted(result2, key=lambda x: x[1]):
             print(r2)
-
-
