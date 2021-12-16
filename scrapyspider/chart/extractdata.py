@@ -38,41 +38,33 @@ def get_chart_data(field, infile, istrans='no', *, transfile=None):
     :param transfile: 翻译所需的文件
     :return: 图表所需的横坐标数据和对应的纵坐标数据
     """
-    if istrans == 'no':
-        if field == 'year':
-            data = extract_data_list(field, infile)
-            sortdata = sorted(data.items(), key=lambda x: x[0])
-        elif field == 'ages':
-            ages_data = {}
-            data = extract_data_list('year', infile)
-            for year in data:
-                ages = year[:3] + '0s'
-                if ages not in ages_data:
-                    ages_data[ages] = data[year]
-                else:
-                    ages_data[ages] += data[year]
-            sortdata = sorted(ages_data.items(), key=lambda x: x[0])
-        elif field == 'country1':
-            data = extract_data_list(field, infile)
-            newdata = union_data(data)
-            sortdata = sorted(newdata.items(), key=lambda x: x[1], reverse=True)
-        else:
-            data = extract_data_list(field, infile)
-            sortdata = sorted(data.items(), key=lambda x: x[1], reverse=True)
-        attr = [x[0] for x in sortdata]
-        v1 = [x[1] for x in sortdata]
-        return attr, v1
-    elif istrans == 'yes':
-        if field == 'country1':
-            data = extract_data_list(field, infile)
-            data_transed = translate_data(data, transfile)
-            newdata = union_data(data_transed)
-            sortdata = sorted(newdata.items(), key=lambda x: x[1], reverse=True)
-            attr = [x[0] for x in sortdata]
-            v1 = [x[1] for x in sortdata]
-            return attr, v1
+    if field == 'ages':
+        field_data = extract_data_list('year', infile)
+        data = {}
+        for year in field_data:
+            ages = year[:3] + '0s'
+            if ages not in data:
+                data[ages] = field_data[year]
+            else:
+                data[ages] += field_data[year]
+        sortdata = sorted(data.items(), key=lambda x: x[0])
+    elif field == 'country1':
+        field_data = extract_data_list(field, infile)
+        if istrans == 'yes':
+            data_transed = translate_data(field_data, transfile)
+            data = union_data(data_transed)
+        elif istrans == 'no':
+            data = union_data(field_data)
+        sortdata = sorted(data.items(), key=lambda x: x[1], reverse=True)
+    elif field == 'year':
+        data = extract_data_list(field, infile)
+        sortdata = sorted(data.items(), key=lambda x: x[0])
     else:
-        raise TypeError('是否需要将数据翻译，istrans只能传入yes或no')
+        data = extract_data_list(field, infile)
+        sortdata = sorted(data.items(), key=lambda x: x[1], reverse=True)
+    attr = [x[0] for x in sortdata]
+    v1 = [x[1] for x in sortdata]
+    return attr, v1
 
 
 def chart_data(field, infile, outfile, title, charttype='bar'):
