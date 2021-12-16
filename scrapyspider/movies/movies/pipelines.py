@@ -6,14 +6,13 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import re
-from movies.items import DoubanMovieItem, ImdbMovieItem
+from ..movies.items import DoubanMovieItem, ImdbMovieItem
 
 
 class MoviesPipeline(object):
     def process_item(self, item, spider):
         if isinstance(item, DoubanMovieItem):
-            # 为了少请求250个页面，写了下面一段冗杂内容
-            # 实际爬取后的数据不应该在此处理
+            # 为了不去请求250电影的详情页面获取导演、国家信息，直接从获取的Item[info]中提取
             year_pt = re.compile(r'\d+')
             country_pt = re.compile(r'\d+\s/\s(.*)\s/\s')
             dr_cn = re.compile(r'[\u4e00-\u9fff·]+')
