@@ -76,52 +76,27 @@ def get_chart_data(field, infile, istrans='no', *, transfile=None):
 
 
 def chart_data(field, infile, outfile, title, charttype='bar'):
-    if charttype == 'bar':
+    """
+    数据可视化为图表
+    :param field: 可视化的字段
+    :param infile: 传入的csv源文件
+    :param outfile: 可视化的图表文件
+    :param title: 图表title
+    :param charttype: 图表类型
+    """
+    if 'country' in field and 'imdb' in infile:
+        istrans, transfile = 'yes', 'countrytrans.txt'
+        chardata = get_chart_data(field, infile, istrans=istrans, transfile=transfile)
+    else:
         chardata = get_chart_data(field, infile)
-        attr = chardata[0]
-        v1 = chardata[1]
-        bar = Bar(title, '')
-        bar.add(field, attr, v1)
-        bar.render(outfile)
-    if charttype == 'pie':
-        chardata = get_chart_data(field, infile)
-        attr = chardata[0]
-        v1 = chardata[1]
-        pie = Pie(title, title_pos='center')
-        pie.add(field, attr, v1, legend_orient='vertical', legend_pos='left', is_label_show=True, label_pos='inner', label_formatter='{c}')
-        pie.render(outfile)
-
-
-def chart_data_transed(field, infile, outfile, title, charttype='bar'):
+    attr = chardata[0]
+    v1 = chardata[1]
     if charttype == 'bar':
-        if 'country' in field:
-            chardata = get_chart_data(field, infile, 'yes', transfile='countrytrans.txt')
-            attr = chardata[0]
-            v1 = chardata[1]
-            bar = Bar(title, '')
-            bar.add(field, attr, v1)
-            bar.render(outfile)
-        else:
-            raise ValueError('缺少翻译文件')
-    if charttype == 'pie':
-        if 'country' in field:
-            chardata = get_chart_data(field, infile, 'yes', transfile='countrytrans.txt')
-            attr = chardata[0]
-            v1 = chardata[1]
-            pie = Pie(title, title_pos='center')
-            pie.add(field, attr, v1, legend_orient='vertical', legend_pos='left', is_label_show=True, label_pos='inner', label_formatter='{c}')
-            pie.render(outfile)
-        else:
-            raise ValueError('缺少翻译文件')
-
-
-
-
-
-
-
-
-
-
-
-
+        char = Bar(title, '')
+        char.add(field, attr, v1)
+    elif charttype == 'pie':
+        char = Pie(title, title_pos='center')
+        char.add(field, attr, v1, legend_orient='vertical', legend_pos='left', is_label_show=True, label_pos='inner', label_formatter='{c}')
+    else:
+        raise TypeError('缺少图表类型')
+    char.render(outfile)

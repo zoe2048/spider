@@ -17,12 +17,7 @@ if __name__ == '__main__':
             infile, outdir = nm['csv'], nm['dir']
             chart_data('year', infile, join(outdir, 'year.html'), title.format(name, '年份'))
             chart_data('ages', infile, join(outdir, 'ages.html'), title.format(name, '年代'))
-            if name == '豆瓣':
-                chart_data('country1', infile, join(outdir, 'country1.html'), title.format(name, '国家/地区'),
-                           'pie')
-            else:
-                chart_data_transed('country1', infile, join(outdir, 'country1.html'),
-                                   title.format(name, '国家/地区'), 'pie')
+            chart_data('country1', infile, join(outdir, 'country1.html'), title.format(name, '国家/地区'), 'pie')
     elif n == 2:
         data = extract_data_list('director_cn1', setting.files['豆瓣']['csv'])
         result = [x for x in data.items() if x[1] > 2]
