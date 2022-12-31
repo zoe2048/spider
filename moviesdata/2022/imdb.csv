@@ -1,0 +1,251 @@
+country,country1,country2,country_others,director,director_cn1,director_cn2,director_en1,director_en2,info,movie_name,ranking,score,tag,year
+United States,United States,,,Frank Darabont,,,Frank Darabont,,,The Shawshank Redemption,1,9.2,,1994
+United States,United States,,,Steven Spielberg,,,Steven Spielberg,,,Schindler's List,6,8.9,,1993
+"New Zealand,United States",New Zealand,United States,,Peter Jackson,,,Peter Jackson,,,The Lord of the Rings: The Fellowship of the Ring,9,8.8,,2001
+"Italy,Spain,West Germany",Italy,Spain,West Germany,Sergio Leone,,,Sergio Leone,,,"The Good, the Bad and the Ugly",10,8.8,,1966
+United States,United States,,,Robert Zemeckis,,,Robert Zemeckis,,,Forrest Gump,11,8.8,,1994
+United States,United States,,,Sidney Lumet,,,Sidney Lumet,,,12 Angry Men,5,9.0,,1957
+United States,United States,,,Quentin Tarantino,,,Quentin Tarantino,,,Pulp Fiction,8,8.8,,1994
+United States,United States,,,Francis Ford Coppola,,,Francis Ford Coppola,,,The Godfather Part II,4,9.0,,1974
+"New Zealand,United States",New Zealand,United States,,Peter Jackson,,,Peter Jackson,,,The Lord of the Rings: The Return of the King,7,8.9,,2003
+"United States,United Kingdom",United States,United Kingdom,,Christopher Nolan,,,Christopher Nolan,,,The Dark Knight,3,9.0,,2008
+"United States,United Kingdom,Canada",United States,United Kingdom,Canada,Christopher Nolan,,,Christopher Nolan,,,Interstellar,26,8.6,,2014
+Italy,Italy,,,Roberto Benigni,,,Roberto Benigni,,,Life Is Beautiful,25,8.6,,1997
+"Germany,United States",Germany,United States,,David Fincher,,,David Fincher,,,Fight Club,12,8.7,,1999
+United States,United States,,,Steven Spielberg,,,Steven Spielberg,,,Saving Private Ryan,24,8.6,,1998
+United States,United States,,,Francis Ford Coppola,,,Francis Ford Coppola,,,The Godfather,2,9.2,,1972
+"Brazil,France,Germany",Brazil,France,Germany,"Fernando Meirelles,Kátia Lund",,,Fernando Meirelles,Kátia Lund,,City of God,23,8.6,,2002
+France,France,,,Jules Dassin,,,Jules Dassin,,,Rififi,250,8.0,,1955
+"United Kingdom,India,United States,South Africa",United Kingdom,India,"United States,South Africa",Richard Attenborough,,,Richard Attenborough,,,Gandhi,249,8.0,,1982
+"United States,India",United States,India,,Tate Taylor,,,Tate Taylor,,,The Help,248,8.0,,2011
+United States,United States,,,"Ron Clements,John Musker",,,Ron Clements,John Musker,,Aladdin,247,8.0,,1992
+"Soviet Union,Japan",Soviet Union,Japan,,Akira Kurosawa,,,Akira Kurosawa,,,Dersu Uzala,245,8.0,,1975
+United States,United States,,,Brad Bird,,,Brad Bird,,,The Iron Giant,246,8.0,,1999
+United States,United States,,,Robert Wise,,,Robert Wise,,,The Sound of Music,241,8.0,,1965
+United Kingdom,United Kingdom,,,Terry Jones,,,Terry Jones,,,Life of Brian,244,8.0,,1979
+United States,United States,,,Frank Capra,,,Frank Capra,,,It Happened One Night,242,8.0,,1934
+France,France,,,François Truffaut,,,François Truffaut,,,The 400 Blows,239,8.0,,1959
+Sweden,Sweden,,,Ingmar Bergman,,,Ingmar Bergman,,,Persona,243,8.0,,1966
+United States,United States,,,Stuart Rosenberg,,,Stuart Rosenberg,,,Cool Hand Luke,238,8.0,,1967
+South Korea,South Korea,,,Park Chan-wook,,,Park Chan-wook,,,The Handmaiden,240,8.0,,2016
+United States,United States,,,Alfred Hitchcock,,,Alfred Hitchcock,,,Rebecca,237,8.0,,1940
+Mexico,Mexico,,,Alejandro G. Iñárritu,,,Alejandro G. Iñárritu,,,Amores Perros,236,8.0,,2000
+United States,United States,,,John Ford,,,John Ford,,,The Grapes of Wrath,235,8.0,,1940
+United States,United States,,,Gore Verbinski,,,Gore Verbinski,,,Pirates of the Caribbean: The Curse of the Black Pearl,234,8.0,,2003
+India,India,,,T.J. Gnanavel,,,T.J. Gnanavel,,,Jai Bhim,232,8.0,,2021
+Turkey,Turkey,,,Çagan Irmak,,,Çagan Irmak,,,My Father and My Son,233,8.0,,2005
+"France,United States",France,United States,,Mathieu Kassovitz,,,Mathieu Kassovitz,,,La haine,230,8.0,,1995
+United States,United States,,,Ernst Lubitsch,,,Ernst Lubitsch,,,To Be or Not to Be,228,8.0,,1942
+"United Kingdom,United States",United Kingdom,United States,,Lasse Hallström,,,Lasse Hallström,,,Hachi: A Dog's Tale,231,8.0,,2009
+United States,United States,,,William Friedkin,,,William Friedkin,,,The Exorcist,226,8.0,,1973
+United States,United States,,,William Wyler,,,William Wyler,,,The Best Years of Our Lives,225,8.0,,1946
+United States,United States,,,Brad Bird,,,Brad Bird,,,The Incredibles,227,8.0,,2004
+United States,United States,,,Harold Ramis,,,Harold Ramis,,,Groundhog Day,224,8.0,,1993
+"Italy,Algeria",Italy,Algeria,,Gillo Pontecorvo,,,Gillo Pontecorvo,,,The Battle of Algiers,229,8.0,,1966
+"United States,France",United States,France,,Richard Linklater,,,Richard Linklater,,,Before Sunset,223,8.0,,2004
+United States,United States,,,Sean Penn,,,Sean Penn,,,Into the Wild,221,8.0,,2007
+United States,United States,,,"Directors,Victor Fleming,George Cukor,Mervyn LeRoy",,,,,,The Wizard of Oz,222,8.0,,1939
+"United Kingdom,United States",United Kingdom,United States,,Ron Howard,,,Ron Howard,,,Rush,218,8.0,,2013
+India,India,,,Satyajit Ray,,,Satyajit Ray,,,Pather Panchali,220,8.0,,1955
+United States,United States,,,Sidney Lumet,,,Sidney Lumet,,,Network,219,8.0,,1976
+United States,United States,,,Rob Reiner,,,Rob Reiner,,,Stand by Me,215,8.0,,1986
+United States,United States,,,"Brad Bird,Jan Pinkava",,,Brad Bird,Jan Pinkava,,Ratatouille,216,8.0,,2007
+"United Kingdom,United States",United Kingdom,United States,,James Cameron,,,James Cameron,,,The Terminator,214,8.0,,1984
+United States,United States,,,James Mangold,,,James Mangold,,,Logan,217,8.0,,2017
+United States,United States,,,John G. Avildsen,,,John G. Avildsen,,,Rocky,211,8.0,,1976
+"United States,United Kingdom",United States,United Kingdom,,Oliver Stone,,,Oliver Stone,,,Platoon,212,8.0,,1986
+United States,United States,,,Tom McCarthy,,,Tom McCarthy,,,Spotlight,213,8.0,,2015
+Japan,Japan,,,Yasujirô Ozu,,,Yasujirô Ozu,,,Tokyo Story,208,8.1,,1953
+United States,United States,,,James Mangold,,,James Mangold,,,Ford v Ferrari,210,8.0,,2019
+United States,United States,,,Peter Weir,,,Peter Weir,,,Dead Poets Society,206,8.1,,1989
+France,France,,,Carl Theodor Dreyer,,,Carl Theodor Dreyer,,,The Passion of Joan of Arc,207,8.1,,1928
+United States,United States,,,Steven Spielberg,,,Steven Spielberg,,,Jaws,205,8.1,,1975
+"United Kingdom,South Africa,Italy,United States",United Kingdom,South Africa,"Italy,United States",Terry George,,,Terry George,,,Hotel Rwanda,209,8.1,,2004
+United States,United States,,,"Pete Docter,David Silverman,Lee Unkrich",,,Pete Docter,David Silverman,,"Monsters, Inc.",203,8.1,,2001
+Australia,Australia,,,Adam Elliot,,,Adam Elliot,,,Mary and Max,201,8.1,,2009
+"United States,United Kingdom",United States,United Kingdom,,"Joel Coen,Ethan Coen",,,Joel Coen,Ethan Coen,,The Big Lebowski,204,8.1,,1998
+"Ireland,Canada,United Kingdom,United States",Ireland,Canada,"United Kingdom,United States",Lenny Abrahamson,,,Lenny Abrahamson,,,Room,200,8.1,,2015
+Australia,Australia,,,George Miller,,,George Miller,,,Mad Max: Fury Road,198,8.1,,2015
+United States,United States,,,"Dean DeBlois,Chris Sanders",,,Dean DeBlois,Chris Sanders,,How to Train Your Dragon,202,8.1,,2010
+Sweden,Sweden,,,Ingmar Bergman,,,Ingmar Bergman,,,The Seventh Seal,199,8.1,,1957
+United States,United States,,,Frank Capra,,,Frank Capra,,,Mr. Smith Goes to Washington,195,8.1,,1939
+South Korea,South Korea,,,Bong Joon Ho,,,Bong Joon Ho,,,Memories of Murder,196,8.1,,2003
+United States,United States,,,Buster Keaton,,,Buster Keaton,,,Sherlock Jr.,194,8.1,,1924
+"Argentina,Spain,France,United Kingdom",Argentina,Spain,"France,United Kingdom",Damián Szifron,,,Damián Szifron,,,Wild Tales,197,8.1,,2014
+"France,Italy",France,Italy,,Henri-Georges Clouzot,,,Henri-Georges Clouzot,,,The Wages of Fear,192,8.1,,1953
+"Ireland,United Kingdom",Ireland,United Kingdom,,Jim Sheridan,,,Jim Sheridan,,,In the Name of the Father,190,8.1,,1993
+"United States,United Kingdom",United States,United Kingdom,,Michael Cimino,,,Michael Cimino,,,The Deer Hunter,189,8.1,,1978
+"United Kingdom,United States",United Kingdom,United States,,Stanley Kubrick,,,Stanley Kubrick,,,Barry Lyndon,191,8.1,,1975
+"Australia,United States,United Kingdom,China",Australia,United States,"United Kingdom,China",Mel Gibson,,,Mel Gibson,,,Hacksaw Ridge,193,8.1,,2016
+United States,United States,,,"Clyde Bruckman,Buster Keaton",,,Clyde Bruckman,Buster Keaton,,The General,187,8.1,,1926
+"United States,Germany",United States,Germany,,Wes Anderson,,,Wes Anderson,,,The Grand Budapest Hotel,188,8.1,,2014
+United Kingdom,United Kingdom,,,Carol Reed,,,Carol Reed,,,The Third Man,186,8.1,,1949
+United States,United States,,,David Fincher,,,David Fincher,,,Gone Girl,185,8.1,,2014
+United States,United States,,,William Wyler,,,William Wyler,,,Ben-Hur,182,8.1,,1959
+"Spain,United Kingdom,United States",Spain,United Kingdom,United States,"Sergio Pablos,Carlos Martínez López",,,Sergio Pablos,Carlos Martínez López,,Klaus,183,8.1,,2019
+"United Kingdom,United States",United Kingdom,United States,,David Yates,,,David Yates,,,Harry Potter and the Deathly Hallows: Part 2,181,8.1,,2011
+Sweden,Sweden,,,Ingmar Bergman,,,Ingmar Bergman,,,Wild Strawberries,184,8.1,,1957
+"United States,United Kingdom",United States,United Kingdom,,Steve McQueen,,,Steve McQueen,,,12 Years a Slave,180,8.1,,2013
+"United States,Austria",United States,Austria,,Richard Linklater,,,Richard Linklater,,,Before Sunrise,179,8.1,,1995
+United States,United States,,,Charles Chaplin,,,Charles Chaplin,,,The Gold Rush,177,8.1,,1925
+"United States,Canada",United States,Canada,,Steven Spielberg,,,Steven Spielberg,,,Catch Me If You Can,173,8.1,,2002
+United States,United States,,,Elia Kazan,,,Elia Kazan,,,On the Waterfront,178,8.1,,1954
+United States,United States,,,Ridley Scott,,,Ridley Scott,,,Blade Runner,176,8.1,,1982
+Iran,Iran,,,Majid Majidi,,,Majid Majidi,,,Children of Heaven,175,8.1,,1997
+United States,United States,,,Clint Eastwood,,,Clint Eastwood,,,Million Dollar Baby,174,8.1,,2004
+"Germany,United States",Germany,United States,,Clint Eastwood,,,Clint Eastwood,,,Gran Torino,171,8.1,,2008
+"United States,United Kingdom",United States,United Kingdom,,"Joel Coen,Ethan Coen",,,Joel Coen,Ethan Coen,,Fargo,170,8.1,,1996
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,,My Neighbor Totoro,172,8.1,,1988
+United States,United States,,,Gavin O'Connor,,,Gavin O'Connor,,,Warrior,168,8.1,,2011
+United Kingdom,United Kingdom,,,Danny Boyle,,,Danny Boyle,,,Trainspotting,167,8.1,,1996
+"United Kingdom,United States",United Kingdom,United States,,Martin McDonagh,,,Martin McDonagh,,,"Three Billboards Outside Ebbing, Missouri",166,8.1,,2017
+United States,United States,,,Denis Villeneuve,,,Denis Villeneuve,,,Prisoners,169,8.1,,2013
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,,Howl's Moving Castle,164,8.1,,2004
+"Argentina,Spain",Argentina,Spain,,Juan José Campanella,,,Juan José Campanella,,,The Secret in Their Eyes,163,8.1,,2009
+United States,United States,,,Alfred Hitchcock,,,Alfred Hitchcock,,,Dial M for Murder,162,8.1,,1954
+"United Kingdom,United States",United Kingdom,United States,,David Lean,,,David Lean,,,The Bridge on the River Kwai,165,8.1,,1957
+"United States,Japan",United States,Japan,,"Pete Docter,Ronnie Del Carmen",,,Pete Docter,Ronnie Del Carmen,,Inside Out,160,8.1,,2015
+United Kingdom,United Kingdom,,,Guy Ritchie,,,Guy Ritchie,,,"Lock, Stock and Two Smoking Barrels",161,8.1,,1998
+United States,United States,,,"Victor Fleming,George Cukor,Sam Wood",,,Victor Fleming,George Cukor,,Gone with the Wind,159,8.1,,1939
+United States,United States,,,Martin Scorsese,,,Martin Scorsese,,,Raging Bull,157,8.1,,1980
+United States,United States,,,Roman Polanski,,,Roman Polanski,,,Chinatown,156,8.1,,1974
+"United States,United Kingdom",United States,United Kingdom,,David Lynch,,,David Lynch,,,The Elephant Man,155,8.1,,1980
+United States,United States,,,"Andrew Stanton,Lee Unkrich",,,Andrew Stanton,Lee Unkrich,,Finding Nemo,154,8.1,,2003
+"United States,United Kingdom,Germany",United States,United Kingdom,Germany,James McTeigue,,,James McTeigue,,,V for Vendetta,158,8.1,,2005
+"United States,Canada",United States,Canada,,John Carpenter,,,John Carpenter,,,The Thing,153,8.1,,1982
+United States,United States,,,Quentin Tarantino,,,Quentin Tarantino,,,Kill Bill: Vol. 1,152,8.1,,2003
+United States,United States,,,"Ethan Coen,Joel Coen",,,Ethan Coen,Joel Coen,,No Country for Old Men,151,8.1,,2007
+United States,United States,,,John Sturges,,,John Sturges,,,The Great Escape,149,8.1,,1963
+United States,United States,,,Jon Watts,,,Jon Watts,,,Spider-Man: No Way Home,148,8.1,,2021
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,,Rashomon,150,8.1,,1950
+United States,United States,,,Steven Spielberg,,,Steven Spielberg,,,Jurassic Park,147,8.1,,1993
+United Kingdom,United Kingdom,,,"Terry Gilliam,Terry Jones",,,Terry Gilliam,Terry Jones,,Monty Python and the Holy Grail,146,8.1,,1975
+United States,United States,,,Martin Scorsese,,,Martin Scorsese,,,Shutter Island,143,8.2,,2010
+United States,United States,,,John Huston,,,John Huston,,,The Treasure of the Sierra Madre,145,8.1,,1948
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,,Yojimbo,144,8.1,,1961
+United States,United States,,,Peter Weir,,,Peter Weir,,,The Truman Show,140,8.2,,1998
+United States,United States,,,M. Night Shyamalan,,,M. Night Shyamalan,,,The Sixth Sense,141,8.2,,1999
+United States,United States,,,Paul Thomas Anderson,,,Paul Thomas Anderson,,,There Will Be Blood,139,8.2,,2007
+United States,United States,,,Clint Eastwood,,,Clint Eastwood,,,Unforgiven,138,8.2,,1992
+United States,United States,,,Ron Howard,,,Ron Howard,,,A Beautiful Mind,142,8.2,,2001
+"Mexico,Spain",Mexico,Spain,,Guillermo del Toro,,,Guillermo del Toro,,,Pan's Labyrinth,137,8.2,,2006
+"Japan,France",Japan,France,,Akira Kurosawa,,,Akira Kurosawa,,,Ran,136,8.2,,1985
+"United States,France",United States,France,,Martin Scorsese,,,Martin Scorsese,,,Casino,135,8.2,,1995
+United States,United States,,,Stanley Kramer,,,Stanley Kramer,,,Judgment at Nuremberg,134,8.2,,1961
+United States,United States,,,Martin Scorsese,,,Martin Scorsese,,,The Wolf of Wall Street,133,8.2,,2013
+"United Kingdom,France,United States",United Kingdom,France,United States,Florian Zeller,,,Florian Zeller,,,The Father,131,8.2,,2020
+United States,United States,,,Joseph L. Mankiewicz,,,Joseph L. Mankiewicz,,,All About Eve,130,8.2,,1950
+"United States,China",United States,China,,Peter Farrelly,,,Peter Farrelly,,,Green Book,132,8.2,,2018
+United States,United States,,,Charles Chaplin,,,Charles Chaplin,,,The Kid,128,8.2,,1921
+United States,United States,,,Billy Wilder,,,Billy Wilder,,,Some Like It Hot,129,8.2,,1959
+"India,United States",India,United States,,Nitesh Tiwari,,,Nitesh Tiwari,,,Dangal,126,8.2,,2016
+"Italy,Spain,West Germany",Italy,Spain,West Germany,Sergio Leone,,,Sergio Leone,,,For a Few Dollars More,125,8.2,,1965
+"United States,United Kingdom",United States,United Kingdom,,Christopher Nolan,,,Christopher Nolan,,,Batman Begins,127,8.2,,2005
+"Germany,Austria,Italy",Germany,Austria,Italy,Oliver Hirschbiegel,,,Oliver Hirschbiegel,,,Downfall,124,8.2,,2004
+"United Kingdom,United States,India,Spain",United Kingdom,United States,"India,Spain",Sam Mendes,,,Sam Mendes,,,1917,123,8.2,,2019
+Italy,Italy,,,Vittorio De Sica,,,Vittorio De Sica,,,Bicycle Thieves,121,8.2,,1948
+"United Kingdom,United States",United Kingdom,United States,,Guy Ritchie,,,Guy Ritchie,,,Snatch,119,8.2,,2000
+United States,United States,,,Steven Spielberg,,,Steven Spielberg,,,Indiana Jones and the Last Crusade,120,8.2,,1989
+India,India,,,"Aamir Khan,Amole Gupte",,,Aamir Khan,Amole Gupte,,Like Stars on Earth,122,8.2,,2007
+United States,United States,,,Curtis Hanson,,,Curtis Hanson,,,L.A. Confidential,117,8.2,,1997
+United States,United States,,,John McTiernan,,,John McTiernan,,,Die Hard,118,8.2,,1988
+Germany,Germany,,,Fritz Lang,,,Fritz Lang,,,Metropolis,116,8.2,,1927
+"Iran,France,Australia",Iran,France,Australia,Asghar Farhadi,,,Asghar Farhadi,,,A Separation,115,8.2,,2011
+United States,United States,,,Martin Scorsese,,,Martin Scorsese,,,Taxi Driver,114,8.2,,1976
+United States,United States,,,Michael Mann,,,Michael Mann,,,Heat,113,8.2,,1995
+United States,United States,,,"Pete Docter,Bob Peterson",,,Pete Docter,Bob Peterson,,Up,112,8.2,,2009
+"Canada,France",Canada,France,,Denis Villeneuve,,,Denis Villeneuve,,,Incendies,111,8.2,,2010
+United States,United States,,,George Roy Hill,,,George Roy Hill,,,The Sting,110,8.2,,1973
+United States,United States,,,Robert Mulligan,,,Robert Mulligan,,,To Kill a Mockingbird,109,8.2,,1962
+United States,United States,,,Brian De Palma,,,Brian De Palma,,,Scarface,108,8.2,,1983
+United States,United States,,,Thomas Kail,,,Thomas Kail,,,Hamilton,107,8.2,,2020
+"United Kingdom,United States",United Kingdom,United States,,Stanley Kubrick,,,Stanley Kubrick,,,Full Metal Jacket,106,8.2,,1987
+United States,United States,,,Billy Wilder,,,Billy Wilder,,,Double Indemnity,105,8.2,,1944
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,,Ikiru,104,8.2,,1952
+"United Kingdom,United States",United Kingdom,United States,,Stanley Kubrick,,,Stanley Kubrick,,,A Clockwork Orange,103,8.2,,1971
+United States,United States,,,Alfred Hitchcock,,,Alfred Hitchcock,,,Vertigo,100,8.2,,1958
+United States,United States,,,Billy Wilder,,,Billy Wilder,,,The Apartment,102,8.2,,1960
+"France,Germany",France,Germany,,Jean-Pierre Jeunet,,,Jean-Pierre Jeunet,,,Amélie,101,8.2,,2001
+United States,United States,,,Alfred Hitchcock,,,Alfred Hitchcock,,,North by Northwest,99,8.2,,1959
+Germany,Germany,,,Fritz Lang,,,Fritz Lang,,,M,97,8.3,,1931
+United Kingdom,United Kingdom,,,David Lean,,,David Lean,,,Lawrence of Arabia,98,8.3,,1962
+United States,United States,,,Orson Welles,,,Orson Welles,,,Citizen Kane,96,8.3,,1941
+Soviet Union,Soviet Union,,,Elem Klimov,,,Elem Klimov,,,Come and See,95,8.3,,1985
+"Denmark,Sweden",Denmark,Sweden,,Thomas Vinterberg,,,Thomas Vinterberg,,,The Hunt,94,8.3,,2012
+United States,United States,,,Michel Gondry,,,Michel Gondry,,,Eternal Sunshine of the Spotless Mind,91,8.3,,2004
+United States,United States,,,Quentin Tarantino,,,Quentin Tarantino,,,Reservoir Dogs,93,8.3,,1992
+"Lebanon,France,Cyprus,Qatar,United Kingdom",Lebanon,France,"Cyprus,Qatar,United Kingdom",Nadine Labaki,,,Nadine Labaki,,,Capernaum,90,8.3,,2018
+"United Kingdom,United States",United Kingdom,United States,,Stanley Kubrick,,,Stanley Kubrick,,,2001: A Space Odyssey,92,8.3,,1968
+United States,United States,,,Richard Marquand,,,Richard Marquand,,,Star Wars: Episode VI - Return of the Jedi,89,8.3,,1983
+United States,United States,,,Joseph Kosinski,,,Joseph Kosinski,,,Top Gun: Maverick,88,8.3,,2022
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,,High and Low,87,8.3,,1963
+United States,United States,,,Lee Unkrich,,,Lee Unkrich,,,Toy Story 3,86,8.3,,2010
+India,India,,,Rajkumar Hirani,,,Rajkumar Hirani,,,3 Idiots,85,8.3,,2009
+United States,United States,,,Darren Aronofsky,,,Darren Aronofsky,,,Requiem for a Dream,83,8.3,,2000
+"Italy,United States",Italy,United States,,Sergio Leone,,,Sergio Leone,,,Once Upon a Time in America,80,8.3,,1984
+United States,United States,,,Gus Van Sant,,,Gus Van Sant,,,Good Will Hunting,81,8.3,,1997
+Japan,Japan,,,Makoto Shinkai,,,Makoto Shinkai,,,Your Name.,82,8.3,,2016
+United States,United States,,,"Stanley Donen,Gene Kelly",,,Stanley Donen,Gene Kelly,,Singin' in the Rain,84,8.3,,1952
+United States,United States,,,"Anthony Russo,Joe Russo",,,Anthony Russo,Joe Russo,,Avengers: Endgame,78,8.3,,2019
+"West Germany,Italy,France,United Kingdom",West Germany,Italy,"France,United Kingdom",Wolfgang Petersen,,,Wolfgang Petersen,,,The Boat,77,8.3,,1981
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,,Princess Mononoke,79,8.3,,1997
+United States,United States,,,John Lasseter,,,John Lasseter,,,Toy Story,75,8.3,,1995
+United States,United States,,,Mel Gibson,,,Mel Gibson,,,Braveheart,76,8.3,,1995
+United States,United States,,,"Lee Unkrich,Adrian Molina",,,Lee Unkrich,Adrian Molina,,Coco,73,8.3,,2017
+"United States,Canada",United States,Canada,,Todd Phillips,,,Todd Phillips,,,Joker,74,8.3,,2019
+"Germany,United States",Germany,United States,,Quentin Tarantino,,,Quentin Tarantino,,,Inglourious Basterds,72,8.3,,2009
+South Korea,South Korea,,,Park Chan-wook,,,Park Chan-wook,,,Oldboy,70,8.3,,2003
+"United States,France,Italy",United States,France,Italy,Milos Forman,,,Milos Forman,,,Amadeus,71,8.3,,1984
+"United States,United Kingdom",United States,United Kingdom,,Christopher Nolan,,,Christopher Nolan,,,The Dark Knight Rises,69,8.3,,2012
+"United Kingdom,United States",United Kingdom,United States,,Stanley Kubrick,,,Stanley Kubrick,,,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,68,8.3,,1964
+"United Kingdom,United States",United Kingdom,United States,,James Cameron,,,James Cameron,,,Aliens,65,8.3,,1986
+United States,United States,,,"Bob Persichetti,Peter Ramsey,Rodney Rothman",,,Bob Persichetti,Peter Ramsey,,Spider-Man: Into the Spider-Verse,66,8.3,,2018
+United States,United States,,,Sam Mendes,,,Sam Mendes,,,American Beauty,67,8.3,,1999
+United States,United States,,,Billy Wilder,,,Billy Wilder,,,Witness for the Prosecution,64,8.4,,1957
+"United Kingdom,United States",United Kingdom,United States,,Stanley Kubrick,,,Stanley Kubrick,,,The Shining,61,8.4,,1980
+United States,United States,,,Charles Chaplin,,,Charles Chaplin,,,The Great Dictator,62,8.4,,1940
+United States,United States,,,Stanley Kubrick,,,Stanley Kubrick,,,Paths of Glory,60,8.4,,1957
+United States,United States,,,Billy Wilder,,,Billy Wilder,,,Sunset Blvd.,59,8.4,,1950
+"Germany,France",Germany,France,,Florian Henckel von Donnersmarck,,,Florian Henckel von Donnersmarck,,,The Lives of Others,58,8.4,,2006
+United States,United States,,,Andrew Stanton,,,Andrew Stanton,,,WALL·E,57,8.4,,2008
+United States,United States,,,Quentin Tarantino,,,Quentin Tarantino,,,Django Unchained,56,8.4,,2012
+United States,United States,,,"Anthony Russo,Joe Russo",,,Anthony Russo,Joe Russo,,Avengers: Infinity War,63,8.4,,2018
+United States,United States,,,Francis Ford Coppola,,,Francis Ford Coppola,,,Apocalypse Now,53,8.4,,1979
+United States,United States,,,Christopher Nolan,,,Christopher Nolan,,,Memento,54,8.4,,2000
+United States,United States,,,Steven Spielberg,,,Steven Spielberg,,,Indiana Jones and the Raiders of the Lost Ark,55,8.4,,1981
+"United Kingdom,United States",United Kingdom,United States,,Ridley Scott,,,Ridley Scott,,,Alien,51,8.4,,1979
+United States,United States,,,Charles Chaplin,,,Charles Chaplin,,,City Lights,52,8.4,,1931
+"Italy,France",Italy,France,,Giuseppe Tornatore,,,Giuseppe Tornatore,,,Cinema Paradiso,50,8.4,,1988
+France,France,,,"Olivier Nakache,Éric Toledano",,,Olivier Nakache,Éric Toledano,,The Intouchables,46,8.5,,2011
+United States,United States,,,Charles Chaplin,,,Charles Chaplin,,,Modern Times,47,8.4,,1936
+United States,United States,,,Alfred Hitchcock,,,Alfred Hitchcock,,,Rear Window,49,8.4,,1954
+Japan,Japan,,,Isao Takahata,,,Isao Takahata,,,Grave of the Fireflies,45,8.5,,1988
+"Italy,United States",Italy,United States,,Sergio Leone,,,Sergio Leone,,,Once Upon a Time in the West,48,8.4,,1968
+United States,United States,,,Michael Curtiz,,,Michael Curtiz,,,Casablanca,43,8.5,,1942
+"United States,Germany",United States,Germany,,Bryan Singer,,,Bryan Singer,,,The Usual Suspects,40,8.5,,1995
+United States,United States,,,Damien Chazelle,,,Damien Chazelle,,,Whiplash,42,8.5,,2014
+"United Kingdom,United States",United Kingdom,United States,,Christopher Nolan,,,Christopher Nolan,,,The Prestige,41,8.5,,2006
+Japan,Japan,,,Masaki Kobayashi,,,Masaki Kobayashi,,,Harakiri,44,8.5,,1962
+"United States,Hong Kong",United States,Hong Kong,,Martin Scorsese,,,Martin Scorsese,,,The Departed,39,8.5,,2006
+"United States,United Kingdom,Malta,Morocco",United States,United Kingdom,"Malta,Morocco",Ridley Scott,,,Ridley Scott,,,Gladiator,37,8.5,,2000
+South Korea,South Korea,,,Bong Joon Ho,,,Bong Joon Ho,,,Parasite,34,8.5,,2019
+United States,United States,,,Tony Kaye,,,Tony Kaye,,,American History X,38,8.5,,1998
+"France,United States",France,United States,,Luc Besson,,,Luc Besson,,,Léon: The Professional,35,8.5,,1994
+United States,United States,,,"Roger Allers,Rob Minkoff",,,Roger Allers,Rob Minkoff,,The Lion King,36,8.5,,1994
+Japan,Japan,,,Hayao Miyazaki,,,Hayao Miyazaki,,,Spirited Away,31,8.5,,2001
+"France,Poland,Germany,United Kingdom",France,Poland,"Germany,United Kingdom",Roman Polanski,,,Roman Polanski,,,The Pianist,33,8.5,,2002
+United States,United States,,,Robert Zemeckis,,,Robert Zemeckis,,,Back to the Future,30,8.5,,1985
+United States,United States,,,Alfred Hitchcock,,,Alfred Hitchcock,,,Psycho,32,8.5,,1960
+United States,United States,,,George Lucas,,,George Lucas,,,Star Wars: Episode IV - A New Hope,28,8.5,,1977
+United States,United States,,,James Cameron,,,James Cameron,,,Terminator 2: Judgment Day,29,8.5,,1991
+United States,United States,,,Frank Capra,,,Frank Capra,,,It's a Wonderful Life,21,8.6,,1946
+United States,United States,,,David Fincher,,,David Fincher,,,Se7en,19,8.6,,1995
+Japan,Japan,,,Akira Kurosawa,,,Akira Kurosawa,,,Seven Samurai,20,8.6,,1954
+United States,United States,,,Jonathan Demme,,,Jonathan Demme,,,The Silence of the Lambs,22,8.6,,1991
+United States,United States,,,Frank Darabont,,,Frank Darabont,,,The Green Mile,27,8.6,,1999
+United States,United States,,,Martin Scorsese,,,Martin Scorsese,,,Goodfellas,17,8.7,,1990
+United States,United States,,,Milos Forman,,,Milos Forman,,,One Flew Over the Cuckoo's Nest,18,8.6,,1975
+"United States,Australia",United States,Australia,,"Lana Wachowski,Lilly Wachowski",,,Lana Wachowski,Lilly Wachowski,,The Matrix,16,8.7,,1999
+United States,United States,,,Irvin Kershner,,,Irvin Kershner,,,Star Wars: Episode V - The Empire Strikes Back,15,8.7,,1980
+"New Zealand,United States",New Zealand,United States,,Peter Jackson,,,Peter Jackson,,,The Lord of the Rings: The Two Towers,13,8.7,,2002
+"United States,United Kingdom",United States,United Kingdom,,Christopher Nolan,,,Christopher Nolan,,,Inception,14,8.7,,2010
