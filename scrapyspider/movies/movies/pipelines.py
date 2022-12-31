@@ -6,7 +6,7 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import re
-from ..movies.items import DoubanMovieItem, ImdbMovieItem
+from .items import DoubanMovieItem, ImdbMovieItem
 
 
 class MoviesPipeline(object):
