@@ -48,4 +48,7 @@ class ImdbMovieItem(scrapy.Item):
     country1 = scrapy.Field()
     country2 = scrapy.Field()
     country_others = scrapy.Field()
+    runtime = scrapy.Field()
+    rated = scrapy.Field()
+    year_runtime_rated = scrapy.Field()
 
