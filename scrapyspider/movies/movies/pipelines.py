@@ -33,6 +33,7 @@ class MoviesPipeline(object):
             else:
                 item['director_cn1'], item['director_en1'] = '', ''
                 item['director_cn2'], item['director_en2'] = '', ''
+
             countries = ''.join(country_pt.findall(info))
             if countries == '':
                 countries = ''.join(re.findall(r'\s/\s(\D+)\s/\s', info))
@@ -49,6 +50,7 @@ class MoviesPipeline(object):
             item['country'] = countries
             item['year'] = year_pt.search(info).group()
             return item
+
         elif isinstance(item, ImdbMovieItem):
             countries = item['country']
             couns = countries.split(',')
@@ -60,6 +62,7 @@ class MoviesPipeline(object):
                 item['country1'], item['country2'], item['country_others'] = couns[0], couns[1], couns[2:]
             else:
                 item['country1'], item['country2'], item['country_others'] = '', '', '', ''
+
             directors = item['director'].split(',')
             if len(directors) == 1:
                 item['director_cn1'], item['director_en1'] = '', directors[0]
@@ -73,4 +76,12 @@ class MoviesPipeline(object):
             else:
                 item['director_cn1'], item['director_en1'] = '', ''
                 item['director_cn2'], item['director_en2'] = '', ''
+
+            if len(item['year_runtime_rated']) == 3:
+                item['year'], item['runtime'], item['rated'] = item['year_runtime_rated']
+            elif len(item['year_runtime_rated']) == 2:
+                item['year'], item['runtime'], item['rated'] = item['year_runtime_rated'][0], item['year_runtime_rated'][1], ''
+            else:
+                item['year'], item['runtime'], item['rated'] = 'check', 'check', 'check'
             return item
+
