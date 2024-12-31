@@ -3,6 +3,7 @@
 from scrapy.spiders import Spider
 from scrapy import Request
 from ..items import ImdbMovieItem
+import json
 
 
 class ImdbMovieTop250(Spider):
@@ -16,25 +17,26 @@ class ImdbMovieTop250(Spider):
         yield Request(url, headers=self.headers)
 
     def parse(self, response):
-        movies = response.xpath('//div[@data-testid="chart-layout-main-column"]//ul[@role="presentation"]/li')
+        movies_json = response.xpath('//script[@id="__NEXT_DATA__"]/text()').get()
+        movies_info = json.loads(movies_json)
+        movies = movies_info['props']['pageProps']['pageData']['chartTitles']['edges']
         for movie in movies:
             item = ImdbMovieItem()
-            item['ranking'] = movie.xpath('.//div[@class="ipc-metadata-list-summary-item__c"]//a[contains(@href,"title")]/h3/text()').re_first(r'(^\d+)')
-            item['movie_name'] = movie.xpath('.//div[@class="ipc-metadata-list-summary-item__c"]//a[contains(@href,"title")]/h3/text()').re_first(r'^\d+.(.*)')
-            item['score'] = movie.xpath('.//div[@data-testid="ratingGroup--container"]/span/text()').get()
-            item['year_runtime_rated'] = movie.xpath('.//div[@class="sc-43986a27-7 dBkaPT cli-title-metadata"]/span/text()').getall()
-            link = movie.xpath('.//div[@class="ipc-metadata-list-summary-item__c"]//a/@href').get()
-            next_url = 'https://www.imdb.com' + link
+            item['ranking'] = movie['currentRank']
+            item['movie_name'] = movie['node']['titleText']['text']
+            item['score'] = movie['node']['ratingsSummary']['aggregateRating']
+            link = movie['node']['id']
+            next_url = 'https://www.imdb.com/title/' + link
             yield Request(next_url, headers=self.headers, meta={'item': item}, callback=self.parse_detail)
 
     def parse_detail(self, response):
         item = response.meta['item']  # 获取parse()传递的item参数
-        tag = response.xpath('//div[@data-testid="genres"]//a[contains(@href,"genres")]/span/text()').getall()
+        item['year_runtime_rated'] = response.xpath('.//div[@class="sc-70a366cc-0 bxYZmb"]//a/text()').getall()
+        tag = response.xpath('//div[@data-testid="interests"]//a[contains(@href,"interest")]/span/text()').getall()
         item['tag'] = ','.join(tag)
         item['info'] = response.xpath('//p[@data-testid="plot"]/span[1]/text()').get()
         country = response.xpath('//li[@data-testid="title-details-origin"]//a[contains(@href,"country")]/text()').getall()
         item['country'] = ','.join(country)
-        director = response.xpath('//div[@class="sc-69e49b85-3 dIOekc"]//a[contains(@href,"dr")]/text()').extract()
+        director = response.xpath('//div[@class="sc-70a366cc-3 iwmAOx"]//a[contains(@href,"dr")]/text()').extract()
         item['director'] = ','.join(director)
         yield item
-

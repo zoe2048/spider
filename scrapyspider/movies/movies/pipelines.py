@@ -82,6 +82,6 @@ class MoviesPipeline(object):
             elif len(item['year_runtime_rated']) == 2:
                 item['year'], item['runtime'], item['rated'] = item['year_runtime_rated'][0], item['year_runtime_rated'][1], ''
             else:
-                item['year'], item['runtime'], item['rated'] = 'check', 'check', 'check'
+                item['year'], item['runtime'], item['rated'] = item['year_runtime_rated'][0], 'check', 'check'
             return item
 
