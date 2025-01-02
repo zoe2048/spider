@@ -77,11 +77,11 @@ class MoviesPipeline(object):
                 item['director_cn1'], item['director_en1'] = '', ''
                 item['director_cn2'], item['director_en2'] = '', ''
 
-            if len(item['year_runtime_rated']) == 3:
-                item['year'], item['runtime'], item['rated'] = item['year_runtime_rated']
-            elif len(item['year_runtime_rated']) == 2:
-                item['year'], item['runtime'], item['rated'] = item['year_runtime_rated'][0], item['year_runtime_rated'][1], ''
+            if len(item['year_rating']) == 2:
+                item['year'], item['rating'] = item['year_rating']
+            elif len(item['year_rating']) == 1:
+                item['year'], item['rating'] = item['year_rating'][0], 'no rating info'
             else:
-                item['year'], item['runtime'], item['rated'] = item['year_runtime_rated'][0], 'check', 'check'
+                item['year'], item['rating'] = 'check', 'check'
             return item
 
