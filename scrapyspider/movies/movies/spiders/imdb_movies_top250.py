@@ -31,8 +31,8 @@ class ImdbMovieTop250(Spider):
 
     def parse_detail(self, response):
         item = response.meta['item']  # 获取parse()传递的item参数
-        item['year_rating'] = response.xpath('.//div[@class="sc-70a366cc-0 bxYZmb"]//a/text()').getall()
-        item['runtime'] = response.xpath('.//div[@class="sc-70a366cc-0 bxYZmb"]//li/text()').get()
+        item['year_rating'] = response.xpath('.//div[@class="sc-af040695-0 iOwuHP"]//a/text()').getall()
+        item['runtime'] = response.xpath('.//div[@class="sc-af040695-0 iOwuHP"]//li/text()').get()
         tag = response.xpath('//div[@data-testid="interests"]//a[contains(@href,"interest")]/span/text()').getall()
         item['tag'] = ','.join(tag)
         item['info'] = response.xpath('//p[@data-testid="plot"]/span[1]/text()').get()
