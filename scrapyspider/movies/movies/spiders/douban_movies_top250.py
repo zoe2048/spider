@@ -21,8 +21,10 @@ class DoubanMovieTop250(Spider):
         for movie in movies:
             item['ranking'] = movie.xpath('.//div[@class="pic"]/em/text()').extract()[0]
             item['movie_name'] = movie.xpath('.//div[@class="hd"]/a/span[1]/text()').extract()[0]
-            item['score'] = movie.xpath('.//div[@class="star"]/span[@class="rating_num"]/text()').extract()[0]
-            item['score_num'] = movie.xpath('.//div[@class="star"]/span[4]/text()').re(r'(\d+)人评价')[0]
+            #item['score'] = movie.xpath('.//div[@class="star"]/span[@class="rating_num"]/text()').extract()[0]
+            item['score'] = movie.xpath('.//div[@class="bd"]/div/span[@class="rating_num"]/text()').extract()[0]
+            #item['score_num'] = movie.xpath('.//div[@class="star"]/span[4]/text()').re(r'(\d+)人评价')[0]
+            item['score_num'] = movie.xpath('.//div[@class="bd"]/div/span[4]/text()').re(r'(\d+)人评价')[0]
             item['info'] = ''.join(movie.xpath('.//div[@class="bd"]/p/text()').extract()).strip()
             yield item
 
